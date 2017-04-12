@@ -35,13 +35,13 @@ def from_text(license_text):
                      not line.startswith('Copyright') and
                      '(c)' not in line and
                      '(C)' not in line]
-    current_line = 0
     current_patterns = KNOWN_FIRST_LINES
-    while license_lines[current_line] in current_patterns:
-        current_patterns = current_patterns[license_lines[current_line]]
+    for line in license_lines:
+        if line not in current_patterns:
+            return None
+        current_patterns = current_patterns[line]
         if isinstance(current_patterns, str):
             return current_patterns
-        current_line += 1
 
 
 def from_file(license_path):
