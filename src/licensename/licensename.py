@@ -1,21 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-This is a skeleton file that can serve as a starting point for a Python
-console script. To run this script uncomment the following line in the
-entry_points section in setup.cfg:
-
-    console_scripts =
-     fibonacci = licensename.skeleton:run
-
-Then run `python setup.py install` which will install the command `fibonacci`
-inside your current environment.
-Besides console scripts, the header (i.e. until _logger...) of this file can
-also be used as template for Python modules.
-
-Note: This skeleton file can be safely removed if not needed!
-"""
-from __future__ import division, print_function, absolute_import
 
 import argparse
 import sys
@@ -30,21 +14,8 @@ __license__ = "mit"
 _logger = logging.getLogger(__name__)
 
 
-def fib(n):
-    """Fibonacci example function
-
-    Args:
-      n (int): integer
-
-    Returns:
-      int: n-th Fibonacci number
-    """
-    assert n > 0
-    a, b = 1, 1
-    for i in range(n-1):
-        a, b = b, a+b
-    return a
-
+def from_file(file_path):
+    return None
 
 def parse_args(args):
     """Parse command line parameters
@@ -62,10 +33,9 @@ def parse_args(args):
         action='version',
         version='licensename {ver}'.format(ver=__version__))
     parser.add_argument(
-        dest="n",
-        help="n-th Fibonacci number",
-        type=int,
-        metavar="INT")
+        dest="license_path",
+        help="Path of a license file",
+        metavar="LICENSE")
     parser.add_argument(
         '-v',
         '--verbose',
@@ -102,9 +72,7 @@ def main(args):
     """
     args = parse_args(args)
     setup_logging(args.loglevel)
-    _logger.debug("Starting crazy calculations...")
-    print("The {}-th Fibonacci number is {}".format(args.n, fib(args.n)))
-    _logger.info("Script ends here")
+    print(from_file(args.license_path))
 
 
 def run():
