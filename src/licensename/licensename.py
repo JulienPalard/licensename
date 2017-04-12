@@ -28,8 +28,7 @@ __license__ = "mit"
 def from_text(license_text):
     """Parse a license text, returns a license name.
     """
-    license_lines = license_text.split('\n')
-    license_lines = [line.strip() for line in license_lines]
+    license_lines = [line.strip() for line in license_text.split('\n')]
     license_lines = [line for line in license_lines if
                      line and
                      not line.startswith('Copyright') and
