@@ -16,8 +16,12 @@ FIXTURE_DIR = os.path.join(
 )
 
 
-def test_files():
-    assert list(glob.glob(os.path.join(FIXTURE_DIR, '*.txt')))
-    for license_file in glob.glob(os.path.join(FIXTURE_DIR, '*.txt')):
-        expected_license_name = os.path.basename(license_file.replace('.txt', ''))
-        assert from_file(license_file) == expected_license_name
+@pytest.mark.parametrize(
+    "license_file,license_name",
+    [(license_file,
+      os.path.basename(
+          license_file.replace('.txt', ''))) for
+     license_file in
+     glob.glob(os.path.join(FIXTURE_DIR, '*.txt'))])
+def test_files(license_file, license_name):
+    assert from_file(license_file) == license_name
