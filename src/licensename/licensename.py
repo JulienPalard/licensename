@@ -16,7 +16,14 @@ __license__ = "mit"
 _logger = logging.getLogger(__name__)
 
 
-def infer_from_known_lines(license_lines):
+def from_text(license_text):
+    license_lines = license_text.split('\n')
+    license_lines = [line.strip() for line in license_lines]
+    license_lines = [line for line in license_lines if
+                     line and
+                     not line.startswith('Copyright') and
+                     '(c)' not in line and
+                     '(C)' not in line]
     current_line = 0
     current_patterns = KNOWN_FIRST_LINES
     while license_lines[current_line] in current_patterns:
@@ -28,9 +35,7 @@ def infer_from_known_lines(license_lines):
 
 def from_file(license_path):
     with open(license_path) as license_file:
-        license_text = license_file.read()
-    license_lines = license_text.split('\n')
-    return infer_from_known_lines(license_lines)
+        return from_text(license_file.read())
 
 
 def parse_args(args):
