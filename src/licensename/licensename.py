@@ -6,6 +6,8 @@ import sys
 import logging
 
 from licensename import __version__
+from licensename.known_licenses import KNOWN_FIRST_LINES
+
 
 __author__ = "Julien Palard"
 __copyright__ = "Julien Palard"
@@ -14,8 +16,22 @@ __license__ = "mit"
 _logger = logging.getLogger(__name__)
 
 
-def from_file(file_path):
-    return None
+def infer_from_known_lines(license_lines):
+    current_line = 0
+    current_patterns = KNOWN_FIRST_LINES
+    while license_lines[current_line] in current_patterns:
+        current_patterns = current_patterns[license_lines[current_line]]
+        if isinstance(current_patterns, str):
+            return current_patterns
+        current_line += 1
+
+
+def from_file(license_path):
+    with open(license_path) as license_file:
+        license_text = license_file.read()
+    license_lines = license_text.split('\n')
+    return infer_from_known_lines(license_lines)
+
 
 def parse_args(args):
     """Parse command line parameters
