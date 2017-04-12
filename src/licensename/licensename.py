@@ -26,6 +26,8 @@ __license__ = "mit"
 
 
 def from_text(license_text):
+    """Parse a license text, returns a license name.
+    """
     license_lines = license_text.split('\n')
     license_lines = [line.strip() for line in license_lines]
     license_lines = [line for line in license_lines if
@@ -43,6 +45,8 @@ def from_text(license_text):
 
 
 def from_file(license_path):
+    """Parse a license file, returns a license name.
+    """
     with open(license_path) as license_file:
         return from_text(license_file.read())
 
