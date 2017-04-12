@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""This module parses licenses files or text, and give back their name, like:
+
+>>> print(licensename.from_file('./LICENSE'))
+>>> 'mit'
+
+or as a script:
+
+$ licensename ./LICENSE
+mit
+
+"""
+
 import argparse
 import sys
 import logging
