@@ -320,6 +320,7 @@ KNOWN_FIRST_LINES = {
     "The X.Net, Inc. License": "Xnet",
     "The Zend Engine License, version 2.00": "Zend-2.0",
     "The authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose, provided that existing copyright notices are retained in all copies and that this notice is included verbatim in any distributions. No written agreement, license, or royalty fee is required for any of the authorized uses. Modifications to this software may be copyrighted by their authors and need not follow the licensing terms described here, provided that the new terms are clearly indicated on the first page of each file where they apply.": "SWL",
+    "The BSD-2 license": "BSD-2-Clause",
     "The eCos license version 2.0": "deprecated_eCos-2.0",
     "The source code in this package is copyright 1999-2010 by Andrew Plotkin.": "Glulxe",
     "This FastCGI application library source and object code (the \"Software\") and its documentation (the \"Documentation\") are copyrighted by Open Market, Inc (\"Open Market\"). The following terms apply to all files associated with the Software and Documentation unless explicitly disclaimed in individual files.": "OML",
