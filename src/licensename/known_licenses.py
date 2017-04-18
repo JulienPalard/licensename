@@ -1,11 +1,11 @@
 KNOWN_FIRST_LINES = {
     "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp": "Beerware",
     "(1) Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "BSD-3-Clause-LBNL",
-    "---- Part 1: CMU/UCD copyright notice: (BSD like) -----": "Net-SNMP",
+    "Part 1: CMU/UCD copyright notice: (BSD like) -----": "Net-SNMP",
     ".": "ADSL",
-    "1. This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and using JPython version 1.1.x in source or binary form and its associated documentation as provided herein (\"Software\").": "CNRI-Jython",
-    "1. You may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.": "Ruby",
-    "1. you can do what you want with it": "diffmark",
+    "This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (\"CNRI\"), and the Individual or Organization (\"Licensee\") accessing and using JPython version 1.1.x in source or binary form and its associated documentation as provided herein (\"Software\").": "CNRI-Jython",
+    "You may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.": "Ruby",
+    "you can do what you want with it": "diffmark",
     "3DFX GLIDE Source Code General Public License": "Glide",
     "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.": "dvipdfm",
     "A world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted, subject to acceptance of this license. Performance of any of the aforementioned acts indicates acceptance to be bound by the following terms and conditions:": "AMPAS",
@@ -25,11 +25,6 @@ KNOWN_FIRST_LINES = {
     "Academic Free License (\u201cAFL\u201d) v. 3.0": "AFL-3.0",
     "Adobe Systems Incorporated(r) Source Code License Agreement": "Adobe-2006",
     "Aladdin Free Public License": "Aladdin",
-    "All rights reserved.": {
-        "Redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:": "AMDPLPA",
-        "Redistribution and use in source and binary forms, with or without  modification, are permitted provided that the following conditions  are met:": "Saxpath",
-        "Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:": "BSD-Source-Code"
-    },
     "Allegro 4 (the giftware license)": "Giftware",
     "Apache License": "Apache-2.0",
     "Apache License 1.1": "Apache-1.1",
@@ -221,24 +216,31 @@ KNOWN_FIRST_LINES = {
     "Reciprocal Public License 1.5 (RPL1.5)": "RPL-1.5",
     "Reciprocal Public License, version 1.1": "RPL-1.1",
     "Red Hat eCos Public License v1.1": "RHeCos-1.1",
+    "Redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:": "AMDPLPA",
+    "Redistribution and use in source and binary forms, with or without": {
+        "modification, are permitted provided that the following conditions are met:": {
+            "Redistributions of source code must retain the above copyright notice, this": "BSD-3-Clause"
+        }
+    },
+    "Redistribution and use in source and binary forms, with or without  modification, are permitted provided that the following conditions  are met:": "Saxpath",
     "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:": {
-        "* Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "BSD-3-Clause-No-Nuclear-License",
-        "* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "TOSL",
-        "- Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "BSD-3-Clause-No-Nuclear-Warranty",
-        "- Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "Sleepycat",
-        "1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following DISCLAIMER.": "Mup",
-        "1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": {
-            "2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.": {
-                "3. All advertising materials mentioning features or use of this software must display the following acknowledgement:": "BSD-4-Clause",
-                "3. All advertising materials mentioning features or use of this software must display the following acknowledgment: \"This product includes software developed by the <<var;name=organization;original=Apache Group for use in the Apache HTTP server project (http://www.apache.org/);match=.+>>.\"": "Apache-1.0",
-                "3. Neither the name of <<var;name=organizationClause3;original=the copyright holder;match=.+>> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.": "BSD-3-Clause",
-                "3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.": "BSD-3-Clause-Attribution",
+        "Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "BSD-3-Clause-No-Nuclear",
+        "Redistributions of source code must retain the above copyright notice, this list of conditions and the following DISCLAIMER.": "Mup",
+        "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": {
+            "Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.": {
+                "All advertising materials mentioning features or use of this software must display the following acknowledgement:": "BSD-4-Clause",
+                "All advertising materials mentioning features or use of this software must display the following acknowledgment: \"This product includes software developed by the <<var;name=organization;original=Apache Group for use in the Apache HTTP server project (http://www.apache.org/);match=.+>>.\"": "Apache-1.0",
+                "Neither the name of <<var;name=organizationClause3;original=the copyright holder;match=.+>> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.": "BSD-3-Clause",
+                "Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.": "BSD-3-Clause-Attribution",
+                "Redistributions in any form must be accompanied by information on how to obtain complete source code for the DB software and any accompanying software that uses the DB software. The source code must either be included in the distribution or be available for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable conditions. For an executable file, complete source code means the source code for all modules it contains. It does not include source code for modules or files that typically accompany the major components of the operating system on which the executable file runs.": "Sleepycat",
+                "Redistributions in any form must be accompanied by information on how to obtain complete source code for this software and any accompanying software that uses this software. The source code must either be included in the distribution or be available in a timely fashion for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable and no more restrictive conditions. For an executable file, complete source code means the source code for all modules it contains. It does not include source code for modules or files that typically accompany the major components of the operating system on which the executable file runs.": "TOSL",
                 "THIS SOFTWARE IS PROVIDED BY <<var;name=copyrightHolderAsIs;original=THE COPYRIGHT HOLDERS AND CONTRIBUTORS;match=.+>> \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=copyrightHolderLiability;original=THE COPYRIGHT HOLDER OR CONTRIBUTORS;match=.+>> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.": "BSD-2-Clause"
             },
-            "2. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.": "bzip2-1.0.6"
+            "The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.": "bzip2-1.0.6"
         }
     },
     "Redistribution and use of this software and associated documentation (\"Software\"), with or without modification, are permitted provided that the following conditions are met:": "Plexus",
+    "Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:": "BSD-Source-Code",
     "Ricoh Source Code Public License": "RSCPL",
     "SAX is free!": "SAX-PD",
     "SCEA Shared Source License 1.0": "SCEA",
@@ -340,10 +342,10 @@ KNOWN_FIRST_LINES = {
     "This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.": {
         "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:":
         {
-            "1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment (see the following) in the product documentation is required.":
+            "The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment (see the following) in the product documentation is required.":
             {
                 "Portions Copyright \u00a9 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov, Charlie Poole or Copyright \u00a9 2000-2004 Philip A. Craig": "Nunit",
-                "2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.": "zlib-acknowledgement"
+                "Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.": "zlib-acknowledgement"
             }
         }
     },

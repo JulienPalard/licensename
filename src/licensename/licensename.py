@@ -15,6 +15,8 @@ mit
 
 import argparse
 import sys
+import re
+
 
 from licensename import __version__
 from licensename.known_licenses import KNOWN_FIRST_LINES
@@ -25,13 +27,20 @@ __copyright__ = "Julien Palard"
 __license__ = "mit"
 
 
+def simplify_line(line):
+    line = line.strip()
+    line = re.sub('^[0-9*.-]* ', '', line)
+    return line
+
+
 def from_text(license_text):
     """Parse a license text, returns a license name.
     """
-    license_lines = [line.strip() for line in license_text.split('\n')]
+    license_lines = [simplify_line(line) for line in license_text.split('\n')]
     license_lines = [line for line in license_lines if
                      line and
                      not line.startswith('Copyright') and
+                     not line.startswith('All rights reserved.') and
                      '(c)' not in line and
                      '(C)' not in line]
     current_patterns = KNOWN_FIRST_LINES

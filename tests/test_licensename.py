@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import glob
 import pytest
 from licensename.licensename import from_file
@@ -20,7 +21,7 @@ FIXTURE_DIR = os.path.join(
     "license_file,license_name",
     [(license_file,
       os.path.basename(
-          license_file.replace('.txt', ''))) for
+          re.sub(r'(~[0-9]+)?\.txt', '', license_file))) for
      license_file in
      glob.glob(os.path.join(FIXTURE_DIR, '*.txt'))])
 def test_files(license_file, license_name):
