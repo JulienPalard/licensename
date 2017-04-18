@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-import pkg_resources
-
-try:
-    __version__ = pkg_resources.get_distribution(__name__).version
-except:
-    __version__ = 'unknown'
+VERSION = (0, 3)
+__version__ = '.'.join(map(str, VERSION))
 
 from .licensename import from_file, from_text
