@@ -30,26 +30,48 @@ __license__ = "mit"
 def simplify_line(line):
     line = line.strip()
     line = re.sub('^[0-9*.-]* ', '', line)
+    line = re.sub('\s+', ' ', line)
     return line
+
+
+def unwrap(text):
+    return [paragraph.replace('\n', ' ') for paragraph in text.split('\n\n')]
+
+
+def line_match_pattern(line, patterns):
+    if line in patterns:
+        return line
+    for potential_regex in patterns:
+        if '.*' not in potential_regex:
+            continue
+        if re.match(potential_regex, line):
+            return potential_regex
+
+
+def remove_useless_lines(license_text):
+    license_text = license_text.split('\n')
+    license_lines = [line for line in license_text if
+                     not line.startswith('Copyright') and
+                     not line.startswith('All rights reserved.') and
+                     '(c)' not in line and
+                     '(C)' not in line]
+    return '\n'.join(license_lines)
 
 
 def from_text(license_text):
     """Parse a license text, returns a license name.
     """
-    license_lines = [simplify_line(line) for line in license_text.split('\n')]
-    license_lines = [line for line in license_lines if
-                     line and
-                     not line.startswith('Copyright') and
-                     not line.startswith('All rights reserved.') and
-                     '(c)' not in line and
-                     '(C)' not in line]
+    license_text = remove_useless_lines(license_text)
+    license_lines = [simplify_line(line) for line in unwrap(license_text)]
     current_patterns = KNOWN_FIRST_LINES
     for line in license_lines:
-        if line not in current_patterns:
-            return None
-        current_patterns = current_patterns[line]
-        if isinstance(current_patterns, str):
-            return current_patterns
+        if not line:
+            continue
+        found_line = line_match_pattern(line, current_patterns)
+        if found_line is not None:
+            current_patterns = current_patterns[found_line]
+            if isinstance(current_patterns, str):
+                return current_patterns
 
 
 def from_file(license_path):
