@@ -58,11 +58,9 @@ def remove_useless_lines(license_text):
     return '\n'.join(license_lines)
 
 
-def from_text(license_text):
+def from_lines(license_lines):
     """Parse a license text, returns a license name.
     """
-    license_text = remove_useless_lines(license_text)
-    license_lines = [simplify_line(line) for line in unwrap(license_text)]
     current_patterns = KNOWN_FIRST_LINES
     for line in license_lines:
         if not line:
@@ -72,6 +70,18 @@ def from_text(license_text):
             current_patterns = current_patterns[found_line]
             if isinstance(current_patterns, str):
                 return current_patterns
+
+
+def from_text(license_text):
+    """Parse a license text, returns a license name.
+    """
+    license_text = remove_useless_lines(license_text)
+    license_lines = [simplify_line(line) for line in unwrap(license_text)]
+    found = from_lines(license_lines)
+    if found:
+        return found
+    license_lines = [simplify_line(line) for line in license_text.split('\n')]
+    return from_lines(license_lines)
 
 
 def from_file(license_path):
