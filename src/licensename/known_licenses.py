@@ -134,7 +134,6 @@ KNOWN_FIRST_LINES = {
     "IMPORTANT: This Apple software is supplied to you by Apple Computer, Inc. (\"Apple\") in consideration of your agreement to the following terms, and your use, installation, modification or redistribution of this Apple software constitutes acceptance of these terms. If you do not agree with these terms, please do not use, install, modify or redistribute this Apple software.": "AML",
     "INTERBASE PUBLIC LICENSE Version 1.0": "Interbase-1.0",
     "IPA Font License Agreement v1.0": "IPA",
-    "ISC License:": "ISC",
     "Imlib2 License": "Imlib2",
     "Independent JPEG Group License": "IJG",
     "Info-ZIP License": "Info-ZIP",
@@ -379,5 +378,6 @@ KNOWN_FIRST_LINES = {
     },
     "\ufeffinsert GPL v2 text here": "deprecated_GPL-2.0-with-font-exception",
     "\ufeffinsert GPL v3 text here": "deprecated_GPL-3.0-with-GCC-exception",
-    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0"
+    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0",
+    "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC"
 }
