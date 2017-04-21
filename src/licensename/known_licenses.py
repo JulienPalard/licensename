@@ -373,5 +373,6 @@ KNOWN_FIRST_LINES = {
         "Class Path Exception": "deprecated_GPL-2.0-with-classpath-exception"
     },
     "\ufeffinsert GPL v2 text here": "deprecated_GPL-2.0-with-font-exception",
-    "\ufeffinsert GPL v3 text here": "deprecated_GPL-3.0-with-GCC-exception"
+    "\ufeffinsert GPL v3 text here": "deprecated_GPL-3.0-with-GCC-exception",
+    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0"
 }
