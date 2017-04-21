@@ -30,7 +30,7 @@ __license__ = "mit"
 def simplify_line(line):
     line = line.strip()
     line = re.sub('^[0-9*.-]* ', '', line)
-    line = re.sub('\s+', ' ', line)
+    line = re.sub(r'\s+', ' ', line)
     return line
 
 
