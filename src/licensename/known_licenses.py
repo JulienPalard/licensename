@@ -324,6 +324,7 @@ KNOWN_FIRST_LINES = {
     "This is free and unencumbered software released into the public domain.": "Unlicense",
     "This material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.": "TCP-wrappers",
     "This program is free software; you can redistribute it freely. Use it at your own risk; there is NO WARRANTY.": "XSkat",
+    "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.": "GPL-1.0",
     "This software is copyrighted by .* and other parties. The following terms apply to all files associated with the software unless explicitly disclaimed in individual files.": "TCL",
     "This software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.": "Leptonica",
     "This software is not subject to any license of the American Telephone and Telegraph Company or of the Regents of the University of California.": "Spencer-94",
