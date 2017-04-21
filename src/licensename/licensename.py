@@ -37,6 +37,7 @@ def simplify_line(line):
 def unwrap(text):
     # Ensure bullet lists are paragraphs:
     text = text.replace('\n* ', '\n\n* ')
+    text = re.sub(r'[ \t\f\v]+$', '', text, 0, re.M)
     return [paragraph.replace('\n', ' ') for paragraph in text.split('\n\n')]
 
 

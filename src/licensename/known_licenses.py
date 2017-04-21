@@ -133,7 +133,7 @@ KNOWN_FIRST_LINES = {
     "ICU License - ICU 1.8.1 and later": "ICU",
     "IMPORTANT: This Apple software is supplied to you by Apple Computer, Inc. (\"Apple\") in consideration of your agreement to the following terms, and your use, installation, modification or redistribution of this Apple software constitutes acceptance of these terms. If you do not agree with these terms, please do not use, install, modify or redistribute this Apple software.": "AML",
     "INTERBASE PUBLIC LICENSE Version 1.0": "Interbase-1.0",
-    "IPA Font License Agreement v1.0 The Licensor provides the Licensed Program (as defined in Article 1 below) under the terms of this license agreement (\"Agreement\"). Any use, reproduction or distribution of the Licensed Program, or any exercise of rights under this Agreement by a Recipient (as defined in Article 1 below) constitutes the Recipient's acceptance of this Agreement.": "IPA",
+    "IPA Font License Agreement v1.0": "IPA",
     "ISC License:": "ISC",
     "Imlib2 License": "Imlib2",
     "Independent JPEG Group License": "IJG",
@@ -158,7 +158,7 @@ KNOWN_FIRST_LINES = {
     "MOZILLA PUBLIC LICENSE Version 1.0": "MPL-1.0",
     "MakeIndex Distribution Notice": "MakeIndex",
     "Microsoft Public License (Ms-PL)": "MS-PL",
-    "Microsoft Reciprocal License (Ms-RL) This license governs use of the accompanying software. If you use the software, you accept this license. If you do not accept the license, do not use the software.": "MS-RL",
+    "Microsoft Reciprocal License (Ms-RL)": "MS-RL",
     "MirOS License": "MirOS",
     "Mozilla Public License Version 1.1": "MPL-1.1",
     "Mozilla Public License Version 2.0": "MPL-2.0",
@@ -192,7 +192,7 @@ KNOWN_FIRST_LINES = {
         "The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it.": "Spencer-86",
         "This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.": "Newsletr"
     },
-    "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies. Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one. Permission is granted to copy and distribute translations of this manual into another language, under the above conditions for modified versions.": "Latex2e",
+    "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.": "Latex2e",
     "Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation file to use, copy, publish, distribute, sublicense, and/or sell copies of the documentation, and to permit others to do the same, provided that:": "Adobe-Glyph",
     "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:": {
         "The above copyright notice and this permission notice shall be included in all copies of the Software and its Copyright notices. In addition publicly documented acknowledgment must be given that this software has been used if no source code of this software is made available publicly. This includes acknowledgments in either Copyright notices, Manuals, Publicity and Marketing documents or any documentation provided with any product containing this software. This License does not apply to any software that links to the libraries provided by this software (statically or dynamically), but only to the software provided.": "MIT-enna",
