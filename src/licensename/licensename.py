@@ -69,11 +69,11 @@ def line_match_pattern(line, patterns):
 
 def remove_useless_lines(license_text):
     license_text = license_text.split('\n')
-    license_lines = [line for line in license_text if
-                     not line.startswith('Copyright') and
+    license_lines = [line if not line.startswith('Copyright') and
                      not line.startswith('All rights reserved.') and
                      '(c)' not in line and
-                     '(C)' not in line]
+                     '(C)' not in line and
+                     not re.match('^[=-]*$', line) else '\n' for line in license_text]
     return '\n'.join(license_lines)
 
 

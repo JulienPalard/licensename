@@ -270,7 +270,7 @@ KNOWN_FIRST_LINES = {
     "The Educational Community License": "ECL-1.0",
     "The FreeBSD Copyright": "BSD-2-Clause-FreeBSD",
     "The FreeType Project LICENSE": "FTL",
-    "The LaTeX Project Public License =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-": {
+    "The LaTeX Project Public License": {
         "LPPL Version 1.1 1999-07-10": "LPPL-1.1",
         "LPPL Version 1.2 1999-09-03": "LPPL-1.2",
         "LPPL Version 1.3a 2004-10-01": "LPPL-1.3a",
@@ -369,7 +369,7 @@ KNOWN_FIRST_LINES = {
     "gSOAP Public License": "gSOAP-1.3b",
     "insert GPL v2 text here": "deprecated_GPL-2.0-with-GCC-exception",
     "insert GPL v3 text here": "deprecated_GPL-3.0-with-autoconf-exception",
-    "psfrag.dtx All rights are reserved.": "psfrag",
+    "psfrag.dtx": "psfrag",
     "wxWindows Library Licence, Version 3.1": "deprecated_WXwindows",
     "zlib License": "Zlib",
     "\ufeffinsert GPL v2 license text here": {
