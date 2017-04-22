@@ -27,21 +27,24 @@ __copyright__ = "Julien Palard"
 __license__ = "mit"
 
 
-def simplify_line(line):
-    line = line.strip()
-    line = re.sub('^[0-9*.-]* ', '', line)
-    line = re.sub(r'\s+', ' ', line)
-    return line
-
-
 def unwrap(text):
-    # Remove leading spaces, it help parsing bullet lists:
-    text = re.sub(r'^[ \t\f\v]+|[ \t\f\v]+$', '', text, 0, re.M)
-    # Ensure bullet lists are paragraphs:
-    text = re.sub(r'^(\*|[0-9]\.) ', '\n\n', text, 0, re.M)
-    # Remove trailing spaces
-    text = re.sub(r'', '', text, 0, re.M)
-    return [paragraph.replace('\n', ' ') for paragraph in text.split('\n\n')]
+    """Kind of undoing a textwrap.wrap().
+
+    Also split lists as if every item was a paragraph.
+    """
+    spaces = r'(?:[ \t\f\v\u00A0\u2028])'
+    unordered_list = r'(?:\*)'
+    ordered_list = r'(?:[0-9]\.)'
+    bullet_marker = r'(?:{unordered}|{ordered})'.format(
+        ordered=ordered_list,
+        unordered=unordered_list)
+    bullet_item = r'(?:^{spaces}*{bullet_marker}{spaces}+)'.format(
+        bullet_marker=bullet_marker,
+        spaces=spaces)
+    text_paragraph_separator = '(?:\n{spaces}*\n+)'.format(spaces=spaces)
+    paragraph_separator = '{}|{}'.format(bullet_item, text_paragraph_separator)
+    return '\n\n'.join(line.replace('\n', ' ') for line in
+                       re.split(paragraph_separator, text, 0, re.M) if line)
 
 
 def line_match_pattern(line, patterns):
@@ -64,6 +67,19 @@ def remove_useless_lines(license_text):
     return '\n'.join(license_lines)
 
 
+def canonicalize(license_text):
+    simplified_text = remove_useless_lines(license_text)
+    unwrapped_text = unwrap(simplified_text)
+    # Remove leading and trailing spaces:
+    unwrapped_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '', unwrapped_text, 0, re.M)
+    # Remove lists prefixes:
+    unwrapped_text = re.sub('^[0-9*.-]* ', '', unwrapped_text, 0, re.M)
+    # Deduplicate spaces:
+    unwrapped_text = re.sub('[ \\t\xA0\u2028]+', ' ', unwrapped_text, 0, re.M)
+
+    return unwrapped_text
+
+
 def from_lines(license_lines):
     """Parse a license text, returns a license name.
     """
@@ -72,7 +88,7 @@ def from_lines(license_lines):
         if not line:
             continue
         found_line = line_match_pattern(line, current_patterns)
-        if found_line is not None:
+        if found_line:
             current_patterns = current_patterns[found_line]
             if isinstance(current_patterns, str):
                 return current_patterns
@@ -81,20 +97,14 @@ def from_lines(license_lines):
 def from_text(license_text):
     """Parse a license text, returns a license name.
     """
-    license_text = remove_useless_lines(license_text)
-    license_lines = [simplify_line(line) for line in unwrap(license_text)]
-    found = from_lines(license_lines)
-    if found:
-        return found
-    license_lines = [simplify_line(line) for line in license_text.split('\n')]
-    return from_lines(license_lines)
+    return from_lines(canonicalize(license_text).split('\n'))
 
 
 def from_file(license_path):
     """Parse a license file, returns a license name.
     """
     with open(license_path) as license_file:
-        return from_text(license_file.read())
+        return from_text(license_file.read().strip())
 
 
 def parse_args(args):
@@ -113,6 +123,10 @@ def parse_args(args):
         action='version',
         version='licensename {ver}'.format(ver=__version__))
     parser.add_argument(
+        '--pretty-print',
+        action='store_true',
+        help="Pretty print license file.")
+    parser.add_argument(
         dest="license_path",
         help="Path of a license file",
         metavar="LICENSE")
@@ -126,6 +140,10 @@ def main(args):
       args ([str]): command line parameter list
     """
     args = parse_args(args)
+    if args.pretty_print:
+        with open(args.license_path) as license_file:
+            print(canonicalize(license_file.read()))
+            return
     print(from_file(args.license_path))
 
 
