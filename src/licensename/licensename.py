@@ -28,23 +28,33 @@ __license__ = "mit"
 
 
 def unwrap(text):
-    """Kind of undoing a textwrap.wrap().
+    """Kind of undoing a textwrap.wrap() on every paragraphs.
 
-    Also split lists as if every item was a paragraph.
+    Also split:
+
+    - Lists, as if every item was a paragraph.
+    - Phrases ending a line, as if it's the end of a paragraph, even
+      if there is no blank line after it.
+
     """
     spaces = r'(?:[ \t\f\v\u00A0\u2028])'
-    unordered_list = r'(?:\*)'
+    unordered_list = r'(?:[*\u2022])'
     ordered_list = r'(?:[0-9]\.)'
     bullet_marker = r'(?:{unordered}|{ordered})'.format(
         ordered=ordered_list,
         unordered=unordered_list)
-    bullet_item = r'(?:^{spaces}*{bullet_marker}{spaces}+)'.format(
+    bullet_item = r'(?:(?<=\n){spaces}*{bullet_marker}{spaces}+)'.format(
         bullet_marker=bullet_marker,
         spaces=spaces)
     text_paragraph_separator = '(?:\n{spaces}*\n+)'.format(spaces=spaces)
-    paragraph_separator = '{}|{}'.format(bullet_item, text_paragraph_separator)
+    line_ending_with_a_dot = r'(?:(?<=\.)\n)'
+    paragraph_separator = '{}|{}|{}'.format(
+        bullet_item,
+        text_paragraph_separator,
+        line_ending_with_a_dot
+    )
     return '\n\n'.join(line.replace('\n', ' ') for line in
-                       re.split(paragraph_separator, text, 0, re.M) if line)
+                       re.split(paragraph_separator, text, 0) if line)
 
 
 def line_match_pattern(line, patterns):

@@ -44,7 +44,7 @@ KNOWN_FIRST_LINES = {
     "CONTRAT DE LICENCE DE LOGICIEL LIBRE CeCILL": {
         "Avertissement": {
             "Ce contrat est une licence de logiciel libre issue d'une concertation entre ses auteurs afin que le respect de deux grands principes pr\u00e9side \u00e0 sa r\u00e9daction:": "CECILL-2.0",
-            "Ce contrat est une licence de logiciel libre issue d’une concertation entre ses auteurs afin que le respect de deux grands principes préside à sa rédaction: • d’une part, sa conformité au droit français, tant au regard du droit de la responsabilité civile que du droit de la propriété intellectuelle et de la protection qu’il offre aux auteurs et titulaires des droits patrimoniaux sur un logiciel. • d’autre part, le respect des principes de diffusion des logiciels libres: accès au code source, droits étendus conférés aux utilisateurs.": "CECILL-1.0"
+            "Ce contrat est une licence de logiciel libre issue d’une concertation entre ses auteurs afin que le respect de deux grands principes préside à sa rédaction:": "CECILL-1.0"
         },
         "Version 2.1 du 2013-06-21": "CECILL-2.1"
     },
@@ -322,7 +322,7 @@ KNOWN_FIRST_LINES = {
     "This is a package of commutative diagram macros built on top of Xy-pic by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It may be freely distributed, unchanged, for non-commercial or commercial use. If changed, it must be renamed. Inclusion in a commercial software package is also permitted, but I would appreciate receiving a free copy for my personal examination and use. There are no guarantees that this package is good for anything. I have tested it with LaTeX 2e, LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work with AMSTeX, I have not tested it.": "Barr",
     "This is free and unencumbered software released into the public domain.": "Unlicense",
     "This material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.": "TCP-wrappers",
-    "This program is free software; you can redistribute it freely. Use it at your own risk; there is NO WARRANTY.": "XSkat",
+    "This program is free software; you can redistribute it freely.": "XSkat",
     "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.": "GPL-1.0",
     "This software is copyrighted by .* and other parties. The following terms apply to all files associated with the software unless explicitly disclaimed in individual files.": "TCL",
     "This software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.": "Leptonica",
@@ -358,14 +358,14 @@ KNOWN_FIRST_LINES = {
     "Yahoo! Public License, Version 1.0 (YPL)": "YPL-1.0",
     "Yahoo! Public License, Version 1.1 (YPL)": "YPL-1.1",
     "You can use DOC software in commercial and/or binary software releases and are under no obligation to redistribute any of your source code that is built using DOC software. Note, however, that you may not misappropriate the DOC software code, such as copyrighting it yourself or claiming authorship of the DOC software code, in a way that will prevent DOC software from being distributed freely using an open-source development model. You needn't inform anyone that you're using DOC software in your software, though we encourage you to let us know so we can promote your project in the DOC software success stories.": "DOC",
-    "You may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk. If you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.": "Zed",
+    "You may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.": "Zed",
     "You may freely use, modify, and/or distribute each of the files in this package without limitation. The package consists of the following files:": "Borceux",
     "Zimbra Public License, Version 1.3 (ZPL)": "Zimbra-1.3",
     "Zimbra Public License, Version 1.4 (ZPL)": "Zimbra-1.4",
     "Zope Public License (ZPL) Version 1.1": "ZPL-1.1",
     "Zope Public License (ZPL) Version 2.0": "ZPL-2.0",
     "Zope Public License (ZPL) Version 2.1": "ZPL-2.1",
-    "cwpuzzle.dtx is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. No author or distributor accepts responsibility to anyone for the consequences of using it or for whether it serves any particular purpose or works at all, unless he says so in writing. . Everyone is granted permission to copy, modify and redistribute cwpuzzle.dtx, provided this copyright notice is preserved and any modifications are indicated.": "Crossword",
+    "cwpuzzle.dtx is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. No author or distributor accepts responsibility to anyone for the consequences of using it or for whether it serves any particular purpose or works at all, unless he says so in writing.": "Crossword",
     "gSOAP Public License": "gSOAP-1.3b",
     "insert GPL v2 text here": "deprecated_GPL-2.0-with-GCC-exception",
     "insert GPL v3 text here": "deprecated_GPL-3.0-with-autoconf-exception",
@@ -378,7 +378,7 @@ KNOWN_FIRST_LINES = {
     },
     "\ufeffinsert GPL v2 text here": "deprecated_GPL-2.0-with-font-exception",
     "\ufeffinsert GPL v3 text here": "deprecated_GPL-3.0-with-GCC-exception",
-    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0",
+    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.": "Apache-2.0",
     "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION": "Apache-2.0",
     "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC"
 }
