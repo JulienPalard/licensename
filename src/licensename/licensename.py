@@ -28,33 +28,25 @@ __license__ = "mit"
 
 
 def unwrap(text):
-    """Kind of undoing a textwrap.wrap() on every paragraphs.
+    def from_same_paragraph(line_a, line_b):
+        if line_b and line_b[0] == '*':
+            return False
+        if not line_a.strip():
+            return False
+        if 58 < len(line_a) < 81 and 1 < len(line_b) < 80:
+            return True
+        return False
 
-    Also split:
-
-    - Lists, as if every item was a paragraph.
-    - Phrases ending a line, as if it's the end of a paragraph, even
-      if there is no blank line after it.
-
-    """
-    spaces = r'(?:[ \t\f\v\u00A0\u2028])'
-    unordered_list = r'(?:[*\u2022])'
-    ordered_list = r'(?:[0-9]\.)'
-    bullet_marker = r'(?:{unordered}|{ordered})'.format(
-        ordered=ordered_list,
-        unordered=unordered_list)
-    bullet_item = r'(?:(?<=\n){spaces}*{bullet_marker}{spaces}+)'.format(
-        bullet_marker=bullet_marker,
-        spaces=spaces)
-    text_paragraph_separator = '(?:\n{spaces}*\n+)'.format(spaces=spaces)
-    line_ending_with_a_dot = r'(?:(?<=\.)\n)'
-    paragraph_separator = '{}|{}|{}'.format(
-        bullet_item,
-        text_paragraph_separator,
-        line_ending_with_a_dot
-    )
-    return '\n\n'.join(line.replace('\n', ' ') for line in
-                       re.split(paragraph_separator, text, 0) if line)
+    lines = text.split('\n')
+    paragraphs = [[]]
+    previous_line = ''
+    for line in lines:
+        if from_same_paragraph(previous_line, line):
+            paragraphs[-1].append(line)
+        elif line:
+            paragraphs.append([line])
+        previous_line = line
+    return '\n\n'.join(' '.join(lines) for lines in paragraphs if lines)
 
 
 def line_match_pattern(line, patterns):

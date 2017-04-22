@@ -4,7 +4,7 @@ import os
 import re
 import glob
 import pytest
-from licensename.licensename import from_file
+from licensename.licensename import from_file, unwrap
 
 __author__ = "Julien Palard"
 __copyright__ = "Julien Palard"
@@ -26,3 +26,9 @@ FIXTURE_DIR = os.path.join(
      glob.glob(os.path.join(FIXTURE_DIR, '*.txt'))])
 def test_files(license_file, license_name):
     assert from_file(license_file) == license_name
+
+
+def test_unwrap():
+    assert unwrap("") == ""
+    assert unwrap("foo") == "foo"
+    assert unwrap("foo\nbar") == "foo\n\nbar"

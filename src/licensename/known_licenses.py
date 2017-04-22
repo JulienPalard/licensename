@@ -10,18 +10,28 @@ KNOWN_FIRST_LINES = {
     "3DFX GLIDE Source Code General Public License": "Glide",
     "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.": "dvipdfm",
     "A world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted, subject to acceptance of this license. Performance of any of the aforementioned acts indicates acceptance to be bound by the following terms and conditions:": "AMPAS",
-    "ACPI - Software License Agreement Software License Agreement IMPORTANT - READ BEFORE COPYING, INSTALLING OR USING.": "Intel-ACPI",
-    "ADAPTIVE PUBLIC LICENSE Version 1.0": "APL-1.0",
-    "AFFERO GENERAL PUBLIC LICENSE Version 1, March 2002 Copyright © 2002 Affero Inc. 510 Third Street - Suite 225, San Francisco, CA 94107, USA": "AGPL-1.0",
+    "ACPI - Software License Agreement": "Intel-ACPI",
+    "ADAPTIVE PUBLIC LICENSE": {
+        "Version 1.0": "APL-1.0"
+    },
+    "AFFERO GENERAL PUBLIC LICENSE": {
+        "Version 1, March 2002 Copyright © 2002 Affero Inc. 510 Third Street - Suite 225, San Francisco, CA 94107, USA": "AGPL-1.0"
+    },
     "ANTLR 2 License": "ANTLR-PD",
-    "APPLE PUBLIC SOURCE LICENSE Version 1.0 - March 16, 1999": "APSL-1.0",
-    "APPLE PUBLIC SOURCE LICENSE Version 1.1 - April 19,1999": "APSL-1.1",
-    "APPLE PUBLIC SOURCE LICENSE Version 2.0 - August 6, 2003": "APSL-2.0",
-    "Academic Free License Version 1.1": "AFL-1.1",
-    "Academic Free License Version 1.2": "AFL-1.2",
+    "APPLE PUBLIC SOURCE LICENSE": {
+        "Version 1.0 - March 16, 1999": "APSL-1.0",
+        "Version 1.1 - April 19,1999": "APSL-1.1",
+        "Version 2.0 - August 6, 2003": "APSL-2.0"
+    },
+    "Academic Free License": {
+        "Version 1.1": "AFL-1.1",
+        "Version 1.2": "AFL-1.2"
+    },
     "Academic Free License (\u201cAFL\u201d) v. 3.0": "AFL-3.0",
     "Adobe Systems Incorporated(r) Source Code License Agreement": "Adobe-2006",
-    "Aladdin Free Public License (Version 8, November 18, 1999)": "Aladdin",
+    "Aladdin Free Public License": {
+        "(Version 8, November 18, 1999)": "Aladdin"
+    },
     "Allegro 4 (the giftware license)": "Giftware",
     "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/": "Apache-2.0",
     "Apache License": {
@@ -30,17 +40,23 @@ KNOWN_FIRST_LINES = {
     "Apache License 1.1": "Apache-1.1",
     "Apple Public Source License Ver. 1.2": "APSL-1.2",
     "Attribution Assurance License": "AAL",
-    "BSD Protection License February 2002": "BSD-Protection",
+    "BSD Protection License": {
+        "February 2002": "BSD-Protection"
+    },
     "BSD-4-Clause (University of California-Specific)": "BSD-4-Clause-UC",
     "Before we get to the text of the license, lets just review what the license says in simple terms:": "ImageMagick",
     "Bison Exception": "deprecated_GPL-2.0-with-bison-exception",
-    "BitTorrent Open Source License Version 1.0": "BitTorrent-1.0",
-    "BitTorrent Open Source License Version 1.1": "BitTorrent-1.1",
+    "BitTorrent Open Source License": {
+        "Version 1.0": "BitTorrent-1.0",
+        "Version 1.1": "BitTorrent-1.1"
+    },
     "Boost Software License - Version 1.0 - August 17th, 2003": "BSL-1.0",
     "CNRI OPEN SOURCE GPL-COMPATIBLE LICENSE AGREEMENT": "CNRI-Python-GPL-Compatible",
     "CNRI OPEN SOURCE LICENSE AGREEMENT": "CNRI-Python",
-    "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0": "CDDL-1.0",
-    "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.1": "CDDL-1.1",
+    "COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL)": {
+        "Version 1.0": "CDDL-1.0",
+        "Version 1.1": "CDDL-1.1"
+    },
     "CONTRAT DE LICENCE DE LOGICIEL LIBRE CeCILL": {
         "Avertissement": {
             "Ce contrat est une licence de logiciel libre issue d'une concertation entre ses auteurs afin que le respect de deux grands principes pr\u00e9side \u00e0 sa r\u00e9daction:": "CECILL-2.0",
@@ -59,7 +75,9 @@ KNOWN_FIRST_LINES = {
     "Code derived from the document \"Report on the Programming Language Haskell 2010\", is distributed under the following license:": "HaskellReport",
     "Common Public Attribution License Version 1.0 (CPAL)": "CPAL-1.0",
     "Common Public License Version 1.0": "CPL-1.0",
-    "Computer Associates Trusted Open Source License Version 1.1": "CATOSL-1.1",
+    "Computer Associates Trusted Open Source License": {
+        "Version 1.1": "CATOSL-1.1"
+    },
     "Condor Public License": "Condor-1.1",
     "Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved. This file is offered as-is, without any warranty.": "FSFAP",
     "Creative Commons Attribution 1.0": "CC-BY-1.0",
@@ -95,15 +113,21 @@ KNOWN_FIRST_LINES = {
     "Creative Commons CC0 1.0 Universal": "CC0-1.0",
     "Crystal Stacker is freeware. This means you can pass copies around freely provided you include this document in it's original form in your distribution. Please see the \"Contacting Us\" section of this document if you need to contact us for any reason.": "CrystalStacker",
     "Cube game engine source code, 20 dec 2003 release.": "Cube",
-    "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE Version 2, December 2004": "WTFPL",
+    "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE": {
+        "Version 2, December 2004": "WTFPL"
+    },
     "Derivative Work - 1996, 1998-2000 Copyright 1996, 1998-2000 The Regents of the University of California": "MIT-CMU",
     "Deutsche Freie Software Lizenz": "D-FSL-1.0",
     "Development of this software was funded, in part, by Cray Research Inc., UUNET Communications Services Inc., Sun Microsystems Inc., and Scriptics Corporation, none of whom are responsible for the results. The author thanks all of them.": "Spencer-99",
-    "EGENIX.COM PUBLIC LICENSE AGREEMENT Version 1.1.0": "eGenix",
+    "EGENIX.COM PUBLIC LICENSE AGREEMENT": {
+        "Version 1.1.0": "eGenix"
+    },
     "ERLANG PUBLIC LICENSE Version 1.1": "ErlPL-1.1",
     "EU DataGrid Software License": "EUDatagrid",
     "Eclipse Public License - v 1.0": "EPL-1.0",
-    "Educational Community License Version 2.0, April 2007": "ECL-2.0",
+    "Educational Community License": {
+        "Version 2.0, April 2007": "ECL-2.0"
+    },
     "Eiffel Forum License, version 1": "EFL-1.0",
     "Eiffel Forum License, version 2": "EFL-2.0",
     "Entessa Public License Version. 1.0": "Entessa",
@@ -113,17 +137,23 @@ KNOWN_FIRST_LINES = {
     "Fair License": "Fair",
     "FreeImage Public License - Version 1.0": "FreeImage",
     "GL2PS LICENSE Version 2, November 2003": "GL2PS",
-    "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007": "AGPL-3.0",
-    "GNU Free Documentation License Version 1.1, March 2000": "GFDL-1.1",
-    "GNU Free Documentation License Version 1.2, November 2002": "GFDL-1.2",
-    "GNU Free Documentation License Version 1.3, 3 November 2008": "GFDL-1.3",
-    "GNU GENERAL PUBLIC LICENSE Version 1, February 1989": "GPL-1.0",
-    "GNU GENERAL PUBLIC LICENSE Version 2, June 1991": "GPL-2.0",
-    "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007": "GPL-3.0",
+    "GNU AFFERO GENERAL PUBLIC LICENSE": {
+        "Version 3, 19 November 2007": "AGPL-3.0"
+    },
+    "GNU Free Documentation License": {
+        "Version 1.1, March 2000": "GFDL-1.1",
+        "Version 1.2, November 2002": "GFDL-1.2",
+        "Version 1.3, 3 November 2008": "GFDL-1.3"
+    },
+    "GNU GENERAL PUBLIC LICENSE": {
+        "Version 1, February 1989": "GPL-1.0",
+        "Version 2, June 1991": "GPL-2.0",
+        "Version 3, 29 June 2007": "GPL-3.0"
+    },
     "GNU LESSER GENERAL PUBLIC LICENSE": {
         "Version 2.1, February 1999": "LGPL-2.1",
+        "Version 3, 29 June 2007": "LGPL-3.0"
     },
-    "GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007": "LGPL-3.0",
     "GNU LIBRARY GENERAL PUBLIC LICENSE": {
         "Version 2, June 1991": "LGPL-2.0",
         "Version 2.1, February 1999": "LGPL-2.1"
@@ -132,7 +162,9 @@ KNOWN_FIRST_LINES = {
     "IBM Public License Version 1.0": "IPL-1.0",
     "ICU License - ICU 1.8.1 and later": "ICU",
     "IMPORTANT: This Apple software is supplied to you by Apple Computer, Inc. (\"Apple\") in consideration of your agreement to the following terms, and your use, installation, modification or redistribution of this Apple software constitutes acceptance of these terms. If you do not agree with these terms, please do not use, install, modify or redistribute this Apple software.": "AML",
-    "INTERBASE PUBLIC LICENSE Version 1.0": "Interbase-1.0",
+    "INTERBASE PUBLIC LICENSE": {
+        "Version 1.0": "Interbase-1.0"
+    },
     "IPA Font License Agreement v1.0": "IPA",
     "Imlib2 License": "Imlib2",
     "Independent JPEG Group License": "IJG",
@@ -143,7 +175,11 @@ KNOWN_FIRST_LINES = {
     "LICENSE FOR THE Extreme! Lab PullParser": "xpp",
     "LaTeX Project Public License": "LPPL-1.0",
     "Lesser General Public License For Linguistic Resources": "LGPLLR",
-    "Licence Art Libre [ Copyleft Attitude ]": "LAL-1.2",
+    "Licence Art Libre": {
+        " [ Copyleft Attitude ]": {
+            "Version 1.2": "LAL-1.2"
+        }
+    },
     "Licence Art Libre 1.3 (LAL 1.3)": "LAL-1.3",
     "Licence Libre du Qu\u00e9bec \u2013 Permissive (LiLiQ-P)": "LiLiQ-P-1.1",
     "Licence Libre du Qu\u00e9bec \u2013 R\u00e9ciprocit\u00e9 (LiLiQ-R)": "LiLiQ-R-1.1",
@@ -153,7 +189,9 @@ KNOWN_FIRST_LINES = {
     "Lucent Public License Version 1.0": "LPL-1.0",
     "Lucent Public License Version 1.02": "LPL-1.02",
     "MOTOSOTO OPEN SOURCE LICENSE - Version 0.9.1": "Motosoto",
-    "MOZILLA PUBLIC LICENSE Version 1.0": "MPL-1.0",
+    "MOZILLA PUBLIC LICENSE": {
+        "Version 1.0": "MPL-1.0"
+    },
     "MakeIndex Distribution Notice": "MakeIndex",
     "Microsoft Public License (Ms-PL)": "MS-PL",
     "Microsoft Reciprocal License (Ms-RL)": "MS-RL",
@@ -164,7 +202,9 @@ KNOWN_FIRST_LINES = {
     "NASA OPEN SOURCE AGREEMENT VERSION 1.3": "NASA-1.3",
     "NAUMEN Public License": "Naumen",
     "NETHACK GENERAL PUBLIC LICENSE": "NGPL",
-    "NETIZEN OPEN SOURCE LICENSE Version 1.0": "NOSL",
+    "NETIZEN OPEN SOURCE LICENSE": {
+        "Version 1.0": "NOSL"
+    },
     "NETSCAPE PUBLIC LICENSE Version 1.0": "NPL-1.0",
     "NO LIMIT PUBLIC LICENSE": "NLPL",
     "NRL License": "NRL",
@@ -174,12 +214,16 @@ KNOWN_FIRST_LINES = {
     "Non-Profit Open Software License 3.0": "NPOSL-3.0",
     "Norwegian Licence for Open Government Data (NLOD)": "NLOD-1.0",
     "Noweb is copyright 1989-2000 by Norman Ramsey. All rights reserved.": "Noweb",
-    "OCLC Research Public License 2.0 Terms & Conditions Of Use May, 2002": "OCLC-2.0",
+    "OCLC Research Public License 2.0": "OCLC-2.0",
     "ODC Open Database License (ODbL)": "ODbL-1.0",
-    "OPEN PUBLIC LICENSE Version 1.0": "OPL-1.0",
+    "OPEN PUBLIC LICENSE": {
+        "Version 1.0": "OPL-1.0"
+    },
     "ORIGINAL LICENSE: This software is": "xinetd",
     "OSET Public License": "OSET-PL-2.1",
-    "Open CASCADE Technology Public License Version 6.6, April 2013": "OCCT-PL",
+    "Open CASCADE Technology Public License": {
+        "Version 6.6, April 2013": "OCCT-PL"
+    },
     "Open Data Commons - Public Domain Dedication & License (PDDL)": "PDDL-1.0",
     "Open Software License v. 3.0 (OSL-3.0)": "OSL-3.0",
     "Open Software Licensev. 2.0": "OSL-2.0",
@@ -206,7 +250,7 @@ KNOWN_FIRST_LINES = {
     "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.": "0BSD",
     "Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that (i) the above copyright notices and this permission notice appear in all copies of the software and related documentation, and (ii) the names of Sam Leffler and Silicon Graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of Sam Leffler and Silicon Graphics.": "libtiff",
     "Portions of this software were developed by the Unidata Program at the University Corporation for Atmospheric Research.": "NetCDF",
-    "PostgreSQL Database Management System (formerly known as Postgres, then as Postgres95)": "PostgreSQL",
+    "PostgreSQL Database Management System": "PostgreSQL",
     "Rdisc (this program) was developed by Sun Microsystems, Inc. and is provided for unrestricted use provided that this legend is included on all tape media and as a part of the software program in whole or part. Users may copy or modify Rdisc without charge, and they may freely distribute it.": "Rdisc",
     "RealNetworks Public Source License Version 1.0": "RPSL-1.0",
     "Reciprocal Public License 1.5 (RPL1.5)": "RPL-1.5",
@@ -235,21 +279,29 @@ KNOWN_FIRST_LINES = {
     },
     "Redistribution and use of this software and associated documentation (\"Software\"), with or without modification, are permitted provided that the following conditions are met:": "Plexus",
     "Redistribution and use of this software in source and binary forms, with or without modification, are permitted provided that the following conditions are met:": "BSD-Source-Code",
-    "Ricoh Source Code Public License Version 1.0": "RSCPL",
+    "Ricoh Source Code Public License": {
+        "Version 1.0": "RSCPL"
+    },
     "SAX is free!": "SAX-PD",
     "SCEA Shared Source License 1.0": "SCEA",
     "SENDMAIL LICENSE": "Sendmail",
-    "SGI FREE SOFTWARE LICENSE B (Version 1.0 1/25/2000)": "SGI-B-1.0",
-    "SGI FREE SOFTWARE LICENSE B (Version 1.1 02/22/2000)": "SGI-B-1.1",
-    "SGI FREE SOFTWARE LICENSE B (Version 2.0, Sept. 18, 2008)": "SGI-B-2.0",
+    "SGI FREE SOFTWARE LICENSE B": {
+        "(Version 1.0 1/25/2000)": "SGI-B-1.0",
+        "(Version 1.1 02/22/2000)": "SGI-B-1.1",
+        "(Version 2.0, Sept. 18, 2008)": "SGI-B-2.0"
+    },
     "SIL OPEN FONT LICENSE": {
         "Version 1.0 - 22 November 2005": "OFL-1.0",
         "Version 1.1 - 26 February 2007": "OFL-1.1"
     },
     "STANDARD ML OF NEW JERSEY COPYRIGHT NOTICE, LICENSE AND DISCLAIMER.": "SMLNJ",
-    "STORAGE NETWORKING INDUSTRY ASSOCIATION PUBLIC LICENSE Version 1.1": "SNIA",
+    "STORAGE NETWORKING INDUSTRY ASSOCIATION": {
+        "Version 1.1": "SNIA"
+    },
     "SUGARCRM PUBLIC LICENSE": "SugarCRM-1.1.3",
-    "SUN INDUSTRY STANDARDS SOURCE LICENSE Version 1.2 1.0 DEFINITIONS": "SISSL-1.2",
+    "SUN INDUSTRY STANDARDS SOURCE LICENSE": {
+        "Version 1.2": "SISSL-1.2"
+    },
     "SUN PUBLIC LICENSE Version 1.0": "SPL-1.0",
     "Secure Messaging Protocol (SMP) Libraries [ACL, CML, SFL]": "SMPPL",
     "Simple Public License (SimPL)": "SimPL-2.0",
@@ -260,8 +312,10 @@ KNOWN_FIRST_LINES = {
     "THE Q PUBLIC LICENSE version 1.0": "QPL-1.0",
     "TORQUE v2.5+ Software License v1.1": "TORQUE-1.1",
     "The \"Artistic License\"": "Artistic-1.0-Perl",
-    "The Academic Free License v. 2.0": "AFL-2.0",
-    "The Academic Free License v.2.1": "AFL-2.1",
+    "The Academic Free License": {
+        "v. 2.0": "AFL-2.0",
+        "v.2.1": "AFL-2.1"
+    },
     "The Artistic License": "Artistic-1.0",
     "The Artistic License 2.0": "Artistic-2.0",
     "The Clarified Artistic License": "ClArtistic",
@@ -282,22 +336,24 @@ KNOWN_FIRST_LINES = {
     "The Open Software License v. 1.0": "OSL-1.0",
     "The Open Software License v. 1.1": "OSL-1.1",
     "The Open Software Licensev. 2.1": "OSL-2.1",
-    "The OpenLDAP Public License Version 1.1, 25 August 1998": "OLDAP-1.1",
-    "The OpenLDAP Public License Version 1.2, 1 September 1998": "OLDAP-1.2",
-    "The OpenLDAP Public License Version 1.3, 17 January 1999": "OLDAP-1.3",
-    "The OpenLDAP Public License Version 1.4, 18 January 1999": "OLDAP-1.4",
-    "The OpenLDAP Public License Version 2.0, 7 June 1999": "OLDAP-2.0",
-    "The OpenLDAP Public License Version 2.0.1, 21 December 1999": "OLDAP-2.0.1",
-    "The OpenLDAP Public License Version 2.1, 29 February 2000": "OLDAP-2.1",
-    "The OpenLDAP Public License Version 2.2, 1 March 2000": "OLDAP-2.2",
-    "The OpenLDAP Public License Version 2.2.1, 1 March 2000": "OLDAP-2.2.1",
-    "The OpenLDAP Public License Version 2.2.2, 28 July 2000": "OLDAP-2.2.2",
-    "The OpenLDAP Public License Version 2.3, 28 July 2000": "OLDAP-2.3",
-    "The OpenLDAP Public License Version 2.4, 8 December 2000": "OLDAP-2.4",
-    "The OpenLDAP Public License Version 2.5, 11 May 2001": "OLDAP-2.5",
-    "The OpenLDAP Public License Version 2.6, 14 June 2001": "OLDAP-2.6",
-    "The OpenLDAP Public License Version 2.7, 7 September 2001": "OLDAP-2.7",
-    "The OpenLDAP Public License Version 2.8, 17 August 2003": "OLDAP-2.8",
+    "The OpenLDAP Public License": {
+        "Version 1.1, 25 August 1998": "OLDAP-1.1",
+        "Version 1.2, 1 September 1998": "OLDAP-1.2",
+        "Version 1.3, 17 January 1999": "OLDAP-1.3",
+        "Version 1.4, 18 January 1999": "OLDAP-1.4",
+        "Version 2.0, 7 June 1999": "OLDAP-2.0",
+        "Version 2.0.1, 21 December 1999": "OLDAP-2.0.1",
+        "Version 2.1, 29 February 2000": "OLDAP-2.1",
+        "Version 2.2, 1 March 2000": "OLDAP-2.2",
+        "Version 2.2.1, 1 March 2000": "OLDAP-2.2.1",
+        "Version 2.2.2, 28 July 2000": "OLDAP-2.2.2",
+        "Version 2.3, 28 July 2000": "OLDAP-2.3",
+        "Version 2.4, 8 December 2000": "OLDAP-2.4",
+        "Version 2.5, 11 May 2001": "OLDAP-2.5",
+        "Version 2.6, 14 June 2001": "OLDAP-2.6",
+        "Version 2.7, 7 September 2001": "OLDAP-2.7",
+        "Version 2.8, 17 August 2003": "OLDAP-2.8"
+    },
     "The PHP License, version 3.0": "PHP-3.0",
     "The PHP License, version 3.01": "PHP-3.01",
     "The SFL License Agreement": "iMatix",
@@ -322,7 +378,7 @@ KNOWN_FIRST_LINES = {
     "This is a package of commutative diagram macros built on top of Xy-pic by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It may be freely distributed, unchanged, for non-commercial or commercial use. If changed, it must be renamed. Inclusion in a commercial software package is also permitted, but I would appreciate receiving a free copy for my personal examination and use. There are no guarantees that this package is good for anything. I have tested it with LaTeX 2e, LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work with AMSTeX, I have not tested it.": "Barr",
     "This is free and unencumbered software released into the public domain.": "Unlicense",
     "This material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.": "TCP-wrappers",
-    "This program is free software; you can redistribute it freely.": "XSkat",
+    "This program is free software; you can redistribute it freely. Use it at your own risk; there is NO WARRANTY.": "XSkat",
     "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.": "GPL-1.0",
     "This software is copyrighted by .* and other parties. The following terms apply to all files associated with the software unless explicitly disclaimed in individual files.": "TCL",
     "This software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.": "Leptonica",
@@ -378,7 +434,7 @@ KNOWN_FIRST_LINES = {
     },
     "\ufeffinsert GPL v2 text here": "deprecated_GPL-2.0-with-font-exception",
     "\ufeffinsert GPL v3 text here": "deprecated_GPL-3.0-with-GCC-exception",
-    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.": "Apache-2.0",
+    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0",
     "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION": "Apache-2.0",
     "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC"
 }
