@@ -152,7 +152,6 @@ KNOWN_FIRST_LINES = {
     "License to copy and use this software is granted provided that it is identified as the \"RSA Data Security, Inc. .* Message-Digest Algorithm\" in all material mentioning or referencing this software or this function.": "RSA-MD",
     "Lucent Public License Version 1.0": "LPL-1.0",
     "Lucent Public License Version 1.02": "LPL-1.02",
-    "MIT License": "MIT",
     "MOTOSOTO OPEN SOURCE LICENSE - Version 0.9.1": "Motosoto",
     "MOZILLA PUBLIC LICENSE Version 1.0": "MPL-1.0",
     "MakeIndex Distribution Notice": "MakeIndex",
@@ -199,7 +198,8 @@ KNOWN_FIRST_LINES = {
         "The above copyright notice and this permission notice shall be included in all copies of the Software, its documentation and marketing & publicity materials, and acknowledgment shall be given in the documentation, materials and software packages that this Software was used.": "MIT-advertising",
         "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.": {
             "Distributions of all or part of the Software intended to be used by the recipients as they would use the unmodified Software, containing modifications that substantially alter, remove, or disable functionality of the Software, outside of the documented configuration mechanisms provided by the Software, shall be modified such that the Original Author's bug reporting email addresses and urls are either replaced with the contact information of the parties responsible for the changes, or removed entirely.": "MITNFA",
-            "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.": "MIT"
+            "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.": "MIT",
+            "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.": "MIT"
         }
     },
     "Permission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.": "gnuplot",
