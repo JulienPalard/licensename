@@ -35,10 +35,12 @@ def simplify_line(line):
 
 
 def unwrap(text):
-    text = re.sub(r'^[ \t\f\v]+', '', text, 0, re.M)
+    # Remove leading spaces, it help parsing bullet lists:
+    text = re.sub(r'^[ \t\f\v]+|[ \t\f\v]+$', '', text, 0, re.M)
     # Ensure bullet lists are paragraphs:
-    text = text.replace('\n* ', '\n\n* ')
-    text = re.sub(r'[ \t\f\v]+$', '', text, 0, re.M)
+    text = re.sub(r'^(\*|[0-9]\.) ', '\n\n', text, 0, re.M)
+    # Remove trailing spaces
+    text = re.sub(r'', '', text, 0, re.M)
     return [paragraph.replace('\n', ' ') for paragraph in text.split('\n\n')]
 
 
