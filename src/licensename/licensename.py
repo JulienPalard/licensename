@@ -33,8 +33,8 @@ def unwrap(text):
             return False
         if not line_a.strip():
             return False
-        if ((median_len * .75 < len(line_a) < median_len * 1.25 and
-             3 < len(line_b) < median_len * 1.2)):
+        if ((median_len * .75 < len(line_a) < median_len * 1.32 and
+             3 < len(line_b) < median_len * 1.32)):
             return True
         return False
 
