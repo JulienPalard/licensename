@@ -39,12 +39,19 @@ BULLET_ITEM = r'(?:{spaces}*{bullet_marker}{spaces}+)'.format(
 
 
 def unwrap(text):
+    in_bullet_list = False
     def from_same_paragraph(line_a, line_b, median_len=70):
+        nonlocal in_bullet_list
         if re.match(BULLET_ITEM, line_b):
+            in_bullet_list = True
             return False
+        if line_b.startswith(' ') and in_bullet_list:
+            return True
+        if not line_b and in_bullet_list:
+            in_bullet_list = False
         if not line_a.strip():
             return False
-        if ((median_len * .75 < len(line_a) < median_len * 2.5 and
+        if ((median_len * .72 < len(line_a) < median_len * 2.5 and
              3 < len(line_b) < median_len * 2.5)):
             return True
         return False
