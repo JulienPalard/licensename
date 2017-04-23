@@ -65,8 +65,6 @@ def line_match_pattern(line, patterns):
     if line in patterns:
         return line
     for potential_regex in patterns:
-        if '.*' not in potential_regex:
-            continue
         if re.match(potential_regex, line):
             return potential_regex
 
