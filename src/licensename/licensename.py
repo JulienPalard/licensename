@@ -28,12 +28,13 @@ __license__ = "mit"
 
 
 def unwrap(text):
-    def from_same_paragraph(line_a, line_b):
+    def from_same_paragraph(line_a, line_b, median_len=70):
         if line_b and line_b[0] == '*':
             return False
         if not line_a.strip():
             return False
-        if 58 < len(line_a) < 81 and 1 < len(line_b) < 80:
+        if ((median_len * .75 < len(line_a) < median_len * 1.25 and
+             3 < len(line_b) < median_len * 1.2)):
             return True
         return False
 
