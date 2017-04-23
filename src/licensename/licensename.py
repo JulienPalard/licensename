@@ -69,11 +69,22 @@ def unwrap(text):
 
 
 def line_match_pattern(line, patterns):
+    if isinstance(patterns, str):
+        return patterns
     if line in patterns:
-        return line
+        return patterns[line]
+    # Or regexes:
     for potential_regex in patterns:
-        if re.match(potential_regex, line):
-            return potential_regex
+        matched = re.match(potential_regex, line)
+        if matched:
+            # As re.match anchors to the beginning only,
+            # it can has matched a start of phrase, let's benefit this
+            # to find if a subpattern match the end of it.
+            remaining_str = line[len(matched.group(0)):].strip()
+            if remaining_str:
+                return line_match_pattern(remaining_str,
+                                          patterns[potential_regex])
+            return patterns[potential_regex]
 
 
 def remove_useless_lines(license_text):
@@ -106,9 +117,9 @@ def from_lines(license_lines):
     for line in license_lines:
         if not line:
             continue
-        found_line = line_match_pattern(line, current_patterns)
-        if found_line:
-            current_patterns = current_patterns[found_line]
+        remaining_patterns = line_match_pattern(line, current_patterns)
+        if remaining_patterns:
+            current_patterns = remaining_patterns
             if isinstance(current_patterns, str):
                 return current_patterns
 
