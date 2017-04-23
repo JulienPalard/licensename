@@ -27,9 +27,20 @@ __copyright__ = "Julien Palard"
 __license__ = "mit"
 
 
+SPACES = r'(?:[ \t\f\v\u00A0\u2028])'
+UNORDERED_LIST = r'(?:[*\u2022])'
+ORDERED_LIST = r'(?:[0-9]\.)'
+BULLET_MARKER = r'(?:{unordered}|{ordered})'.format(
+    ordered=ORDERED_LIST,
+    unordered=UNORDERED_LIST)
+BULLET_ITEM = r'(?:{spaces}*{bullet_marker}{spaces}+)'.format(
+    bullet_marker=BULLET_MARKER,
+    spaces=SPACES)
+
+
 def unwrap(text):
     def from_same_paragraph(line_a, line_b, median_len=70):
-        if line_b and line_b[0] == '*':
+        if re.match(BULLET_ITEM, line_b):
             return False
         if not line_a.strip():
             return False
