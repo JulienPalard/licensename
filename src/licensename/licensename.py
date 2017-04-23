@@ -28,7 +28,7 @@ __license__ = "mit"
 
 
 SPACES = r'(?:[ \t\f\v\u00A0\u2028])'
-UNORDERED_LIST = r'(?:[*\u2022])'
+UNORDERED_LIST = r'(?:[*\u2022+])'
 ORDERED_LIST = r'(?:[0-9]\.)'
 BULLET_MARKER = r'(?:{unordered}|{ordered})'.format(
     ordered=ORDERED_LIST,
@@ -103,7 +103,7 @@ def canonicalize(license_text):
     # Remove leading and trailing spaces:
     unwrapped_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '', unwrapped_text, 0, re.M)
     # Remove lists prefixes:
-    unwrapped_text = re.sub('^[0-9*.-]* +', '', unwrapped_text, 0, re.M)
+    unwrapped_text = re.sub('^[0-9*.+-]* +', '', unwrapped_text, 0, re.M)
     # Deduplicate spaces:
     unwrapped_text = re.sub('[ \\t\xA0\u2028]+', ' ', unwrapped_text, 0, re.M)
 
