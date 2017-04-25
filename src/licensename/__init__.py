@@ -1,4 +1,3 @@
-VERSION = (0, 4)
-__version__ = '.'.join(map(str, VERSION))
+__version__ = '0.4.1'
 
 from .licensename import from_file, from_text

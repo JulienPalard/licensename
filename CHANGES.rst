@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 0.4.1
+=============
+
+- Externalize text unwrapping to its own package.
+
+
 Version 0.4
 ===========
 
