@@ -12,7 +12,7 @@ as a script:
   $ licensename tests/licenses/BSD-2-Clause.txt
   BSD-2-Clause
 
-Or as a module::
+Or as a module:
 
 .. code-block:: pycon
 
