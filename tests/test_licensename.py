@@ -26,9 +26,3 @@ FIXTURE_DIR = os.path.join(
      glob.glob(os.path.join(FIXTURE_DIR, '*.txt'))])
 def test_files(license_file, license_name):
     assert from_file(license_file) == license_name
-
-
-def test_unwrap():
-    assert unwrap("") == ""
-    assert unwrap("foo") == "foo"
-    assert unwrap("foo\nbar") == "foo\n\nbar"
