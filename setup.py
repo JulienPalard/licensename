@@ -15,7 +15,9 @@ from setuptools import setup, find_packages
 def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
     sphinx = ['sphinx'] if needs_sphinx else []
-    setup(setup_requires=sphinx)
+    setup(setup_requires=sphinx,
+          package_dir={'': 'src'},
+          packages=find_packages('src'))
 
 
 if __name__ == "__main__":
