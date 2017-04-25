@@ -147,7 +147,7 @@ def parse_args(args):
       :obj:`argparse.Namespace`: command line parameters namespace
     """
     parser = argparse.ArgumentParser(
-        description="Just a Fibonnaci demonstration")
+        description="Find name of a given license file.")
     parser.add_argument(
         '--version',
         action='version',
