@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 0.4.1
+=============
+
+- Cleaning pyscaffold
+- Externalize text unwrapping to its own package.
+
+
 Version 0.4
 ===========
 
