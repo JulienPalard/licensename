@@ -271,13 +271,16 @@ KNOWN_FIRST_LINES = {
     "red hat ecos public license v1.1": "RHeCos-1.1",
     "redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:": "AMDPLPA",
     "redistribution and use in source and binary forms, with or without": {
-        "redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "BSD-3-Clause-No-Nuclear",
-        "redistributions of source code must retain the above copyright notice": {
-            "redistributions in binary form must reproduce the above copyright": {
+        "redistribution of source code must retain the above copyright": {
+            "you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.": "BSD-3-Clause-No-Nuclear",
+            "you acknowledge that this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.": "BSD-3-Clause-No-Nuclear"},
+        "redistributions of source code must retain the above copyright": {
+            "redistributions in binary form must reproduce the above": {
                 "all advertising materials mentioning features or use of this software must display the following acknowledgement:": "BSD-4-Clause",
                 "all advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the .*": "BSD-4-Clause",
                 "all advertising materials mentioning features or use of this software must display the following acknowledgment: \"this product includes software developed by the .*.\"": "Apache-1.0",
                 "any additions, deletions, or changes to the original files must be clearly indicated": "Mup",
+                "the names of the contributors may not be used to endorse or": "BSD-3-Clause",
                 "neither the name of": {
                     "this software is provided": "BSD-3-Clause",
                     "redistributions of any form whatsoever must retain the following acknowledgment: 'this product includes software developed by the .*": "BSD-3-Clause-Attribution",
