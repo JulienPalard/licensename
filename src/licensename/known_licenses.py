@@ -75,6 +75,7 @@ KNOWN_FIRST_LINES = {
         "haskell 2010": "HaskellReport"
     },
     "common public attribution license version 1.0 (cpal)": "CPAL-1.0",
+    "common public attribution license version 1.0 (cpal-1.0)": "CPAL-1.0",
     "common public license version 1.0": "CPL-1.0",
     "computer associates trusted open source license": {
         "version 1.1": "CATOSL-1.1"
