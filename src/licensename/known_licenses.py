@@ -66,7 +66,6 @@ KNOWN_FIRST_LINES = {
     },
     "contrat de licence de logiciel libre cecill-b": "CECILL-B",
     "contrat de licence de logiciel libre cecill-c": "CECILL-C",
-    "copyright": "mpich2",
     "copyright and permission notice": "curl",
     "copyright notice": "Bahyph",
     "copyright notification": "DSDP",
@@ -452,5 +451,7 @@ KNOWN_FIRST_LINES = {
     "apache license": {
         "version 2.0": "Apache-2.0"
     },
-    "permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC"
+    "permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC",
+    ".*the open source pil software license:": "PIL",
+    "portions of this material resulted from work developed under a u.s. government contract": "mpich2"
 }
