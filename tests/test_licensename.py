@@ -4,7 +4,7 @@ import os
 import re
 import glob
 import pytest
-from licensename.licensename import from_file, unwrap
+from licensename.licensename import from_file
 
 __author__ = "Julien Palard"
 __copyright__ = "Julien Palard"
