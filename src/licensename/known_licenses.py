@@ -141,6 +141,9 @@ KNOWN_FIRST_LINES = {
         "v.1.0": "EUPL-1.0"
     },
     "free software licensing agreement cecill": "CECILL-1.1",
+    "cecill free software license agreement": {
+        "version 2.1 dated 2013-06-21": "CECILL-2.1"
+    },
     "fair license": "Fair",
     "freeimage public license - version 1.0": "FreeImage",
     "gl2ps license version 2, november 2003": "GL2PS",
