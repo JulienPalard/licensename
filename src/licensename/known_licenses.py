@@ -72,7 +72,9 @@ KNOWN_FIRST_LINES = {
     "COPYRIGHT NOTIFICATION": "DSDP",
     "CUA Office Public License Version 1.0": "CUA-OPL-1.0",
     "Caldera International, Inc. hereby grants a fee free license that includes the rights use, modify and distribute this named source code, including creating derived binary products created from the source code. The source code for which Caldera International, Inc. grants rights are limited to the following UNIX Operating Systems that operate on the 16-Bit PDP-11 CPU and early versions of the 32-Bit UNIX Operating System, with specific exclusion of UNIX System III and UNIX System V and successor operating systems:": "Caldera",
-    "Code derived from the document \"Report on the Programming Language Haskell 2010\", is distributed under the following license:": "HaskellReport",
+    "Code derived from the document": {
+        "Haskell 2010": "HaskellReport"
+    },
     "Common Public Attribution License Version 1.0 (CPAL)": "CPAL-1.0",
     "Common Public License Version 1.0": "CPL-1.0",
     "Computer Associates Trusted Open Source License": {
@@ -246,13 +248,13 @@ KNOWN_FIRST_LINES = {
     },
     "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.": "Latex2e",
     "Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation file to use, copy, publish, distribute, sublicense, and/or sell copies of the documentation, and to permit others to do the same, provided that:": "Adobe-Glyph",
-    r"Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files \(the \"+Software\"+\), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:": {
+    r"Permission is hereby granted, free of charge, to any person obtaining": {
         "The above copyright notice and this permission notice shall be included in all copies of the Software and its Copyright notices. In addition publicly documented acknowledgment must be given that this software has been used if no source code of this software is made available publicly. This includes acknowledgments in either Copyright notices, Manuals, Publicity and Marketing documents or any documentation provided with any product containing this software. This License does not apply to any software that links to the libraries provided by this software (statically or dynamically), but only to the software provided.": "MIT-enna",
         "The above copyright notice and this permission notice shall be included in all copies of the Software and its documentation and acknowledgment shall be given in the documentation and software packages that this Software was used.": "MIT-feh",
         "The above copyright notice and this permission notice shall be included in all copies of the Software, its documentation and marketing & publicity materials, and acknowledgment shall be given in the documentation, materials and software packages that this Software was used.": "MIT-advertising",
-        "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.": {
+        "The above copyright notice and this permission notice shall be included": {
             "Distributions of all or part of the Software intended to be used by the recipients as they would use the unmodified Software, containing modifications that substantially alter, remove, or disable functionality of the Software, outside of the documented configuration mechanisms provided by the Software, shall be modified such that the Original Author's bug reporting email addresses and urls are either replaced with the contact information of the parties responsible for the changes, or removed entirely.": "MITNFA",
-            "THE SOFTWARE IS PROVIDED .AS IS., WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.": "MIT",
+            "THE SOFTWARE IS PROVIDED .AS IS., WITHOUT WARRANTY OF ANY KIND": "MIT",
             "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.": "MIT"
         }
     },
@@ -267,22 +269,21 @@ KNOWN_FIRST_LINES = {
     "Reciprocal Public License, version 1.1": "RPL-1.1",
     "Red Hat eCos Public License v1.1": "RHeCos-1.1",
     "Redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:": "AMDPLPA",
-    "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:": {
+    "Redistribution and use in source and binary forms, with or without": {
         "Redistribution of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": "BSD-3-Clause-No-Nuclear",
-        "Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.": "Saxpath",
-        "Redistributions of source code must retain the above copyright notice, this list of conditions and the following DISCLAIMER.": "Mup",
-        "Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.": {
-            "Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.": {
+        "Redistributions of source code must retain the above copyright notice": {
+            "Redistributions in binary form must reproduce the above copyright": {
                 "All advertising materials mentioning features or use of this software must display the following acknowledgement:": "BSD-4-Clause",
                 "All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the .*": "BSD-4-Clause",
                 "All advertising materials mentioning features or use of this software must display the following acknowledgment: \"This product includes software developed by the .*.\"": "Apache-1.0",
-                "Neither the name of .* nor the names of .* may be used to endorse or promote products derived from this software without specific prior written permission.": {
-                    "THIS SOFTWARE IS PROVIDED.*": "BSD-3-Clause",
+                "Any additions, deletions, or changes to the original files must be clearly indicated": "Mup",
+                "Neither the name of": {
+                    "THIS SOFTWARE IS PROVIDED": "BSD-3-Clause",
                     "Redistributions of any form whatsoever must retain the following acknowledgment: 'This product includes software developed by the .*": "BSD-3-Clause-Attribution",
                 },
                 "Redistributions in any form must be accompanied by information on how to obtain complete source code for the DB software and any accompanying software that uses the DB software. The source code must either be included in the distribution or be available for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable conditions. For an executable file, complete source code means the source code for all modules it contains. It does not include source code for modules or files that typically accompany the major components of the operating system on which the executable file runs.": "Sleepycat",
                 "Redistributions in any form must be accompanied by information on how to obtain complete source code for this software and any accompanying software that uses this software. The source code must either be included in the distribution or be available in a timely fashion for no more than the cost of distribution plus a nominal fee, and must be freely redistributable under reasonable and no more restrictive conditions. For an executable file, complete source code means the source code for all modules it contains. It does not include source code for modules or files that typically accompany the major components of the operating system on which the executable file runs.": "TOSL",
-                "THIS SOFTWARE IS PROVIDED BY .* \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL .* BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES \\(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION\\) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT \\(INCLUDING NEGLIGENCE OR OTHERWISE\\) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.": "BSD-2-Clause",
+                "THIS SOFTWARE IS PROVIDED BY": "BSD-2-Clause",
             },
             "The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.": "bzip2-1.0.6"
         }
@@ -388,12 +389,16 @@ KNOWN_FIRST_LINES = {
     "This file may be freely copied and redistributed as long as:": "Afmparse",
     "This file may be freely transmitted and reproduced, but it may not be changed unless the name is changed also (except that you may freely change the paper-size option for \\documentclass).": "Dotseqn",
     "This file was added by Clea F. Rees on 2008/11/30 with the permission of Dean Guenther and pointers to this file were added to all source files.": "Wsuipa",
-    "This is APREAMBL.TEX, version 1.10e, written by Hans-Hermann Bode (HHBODE@DOSUNI1.BITNET), for the BibTeX `adaptable' family, version 1.10. See the file APREAMBL.DOC for a detailed documentation.": "Abstyles",
+    "This is APREAMBL.TEX, version 1.10e, written by Hans-Hermann Bode": "Abstyles",
     "This is a package of commutative diagram macros built on top of Xy-pic by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It may be freely distributed, unchanged, for non-commercial or commercial use. If changed, it must be renamed. Inclusion in a commercial software package is also permitted, but I would appreciate receiving a free copy for my personal examination and use. There are no guarantees that this package is good for anything. I have tested it with LaTeX 2e, LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work with AMSTeX, I have not tested it.": "Barr",
     "This is free and unencumbered software released into the public domain.": "Unlicense",
     "This material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.": "TCP-wrappers",
-    "This program is free software; you can redistribute it freely. Use it at your own risk; there is NO WARRANTY.": "XSkat",
-    "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.": "GPL-1.0",
+    "This program is free software; you can redistribute it freely.": {
+        "Use it at your own risk; there is NO WARRANTY.": "XSkat"
+    },
+    "This program is free software: you can redistribute it and/or modify": {
+        ".*either version 3": "GPL-3.0"
+    },
     "This software is copyrighted by .* and other parties. The following terms apply to all files associated with the software unless explicitly disclaimed in individual files.": "TCL",
     "This software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.": "Leptonica",
     "This software is not subject to any license of the American Telephone and Telegraph Company or of the Regents of the University of California.": "Spencer-94",
@@ -445,7 +450,7 @@ KNOWN_FIRST_LINES = {
         "Autoconf Exception": "deprecated_GPL-2.0-with-autoconf-exception",
         "Class Path Exception": "deprecated_GPL-2.0-with-classpath-exception"
     },
-    "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0",
+    "Licensed under the Apache License, Version 2.0": "Apache-2.0",
     "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION": "Apache-2.0",
     "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC"
 }

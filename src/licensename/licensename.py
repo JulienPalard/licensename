@@ -72,16 +72,15 @@ def remove_useless_lines(license_text):
 
 def canonicalize(license_text):
     simplified_text = remove_useless_lines(license_text)
-    unwrapped_text = unwrap(simplified_text)
     # Remove leading and trailing spaces:
-    unwrapped_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '', unwrapped_text, 0, re.M)
+    simplified_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '', simplified_text, 0, re.M)
     # Remove lists prefixes:
-    unwrapped_text = re.sub('^[0-9*.+-]* +', '', unwrapped_text, 0, re.M)
+    simplified_text = re.sub('^[0-9*.+-]* +', '', simplified_text, 0, re.M)
     # Deduplicate spaces:
-    unwrapped_text = re.sub('[ \\t\xA0\u2028]+', ' ', unwrapped_text, 0, re.M)
+    simplified_text = re.sub('[ \\t\xA0\u2028]+', ' ', simplified_text, 0, re.M)
     # Replace unicode quotation marks by ascii ones
-    unwrapped_text = unidecode(unwrapped_text)
-    return unwrapped_text
+    simplified_text = unidecode(simplified_text)
+    return simplified_text
 
 
 def from_lines(license_lines):
