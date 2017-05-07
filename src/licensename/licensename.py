@@ -19,7 +19,6 @@ import re
 
 
 from unidecode import unidecode
-from textunwrap import unwrap
 from licensename import __version__
 from licensename.known_licenses import KNOWN_FIRST_LINES
 
