@@ -71,7 +71,7 @@ def remove_useless_lines(license_text):
 
 
 def canonicalize(license_text):
-    simplified_text = remove_useless_lines(license_text)
+    simplified_text = remove_useless_lines(license_text).lower()
     # Remove leading and trailing spaces:
     simplified_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '', simplified_text, 0, re.M)
     # Remove lists prefixes:
