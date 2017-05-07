@@ -18,6 +18,7 @@ import sys
 import re
 
 
+from unidecode import unidecode
 from textunwrap import unwrap
 from licensename import __version__
 from licensename.known_licenses import KNOWN_FIRST_LINES
@@ -77,7 +78,8 @@ def canonicalize(license_text):
     unwrapped_text = re.sub('^[0-9*.+-]* +', '', unwrapped_text, 0, re.M)
     # Deduplicate spaces:
     unwrapped_text = re.sub('[ \\t\xA0\u2028]+', ' ', unwrapped_text, 0, re.M)
-
+    # Replace unicode quotation marks by ascii ones
+    unwrapped_text = unidecode(unwrapped_text)
     return unwrapped_text
 
 

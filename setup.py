@@ -46,7 +46,8 @@ def setup_package():
         ],
         setup_requires=sphinx,
         package_dir={'': 'src'},
-        install_requires=['textunwrap'],
+        install_requires=['textunwrap',
+                          'unidecode>=0.04.20'],
         packages=find_packages('src'))
 
 

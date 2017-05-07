@@ -15,7 +15,7 @@ KNOWN_FIRST_LINES = {
         "Version 1.0": "APL-1.0"
     },
     "AFFERO GENERAL PUBLIC LICENSE": {
-        "Version 1, March 2002 Copyright © 2002 Affero Inc. 510 Third Street - Suite 225, San Francisco, CA 94107, USA": "AGPL-1.0"
+        "Version 1, March 2002 Copyright (c) 2002 Affero Inc. 510 Third Street - Suite 225, San Francisco, CA 94107, USA": "AGPL-1.0"
     },
     "ANTLR 2 License": "ANTLR-PD",
     "APPLE PUBLIC SOURCE LICENSE": {
@@ -27,7 +27,7 @@ KNOWN_FIRST_LINES = {
         "Version 1.1": "AFL-1.1",
         "Version 1.2": "AFL-1.2"
     },
-    "Academic Free License (\u201cAFL\u201d) v. 3.0": "AFL-3.0",
+    "Academic Free License (\"AFL\") v. 3.0": "AFL-3.0",
     "Adobe Systems Incorporated(r) Source Code License Agreement": "Adobe-2006",
     "Aladdin Free Public License": {
         "(Version 8, November 18, 1999)": "Aladdin"
@@ -59,8 +59,8 @@ KNOWN_FIRST_LINES = {
     },
     "CONTRAT DE LICENCE DE LOGICIEL LIBRE CeCILL": {
         "Avertissement": {
-            "Ce contrat est une licence de logiciel libre issue d'une concertation entre ses auteurs afin que le respect de deux grands principes pr\u00e9side \u00e0 sa r\u00e9daction:": "CECILL-2.0",
-            "Ce contrat est une licence de logiciel libre issue d’une concertation entre ses auteurs afin que le respect de deux grands principes préside à sa rédaction:": "CECILL-1.0"
+            "Version 1 du 21/06/2004": "CECILL-1.0",
+            "Version 2.0 du 2006-09-05.": "CECILL-2.0"
         },
         "Version 2.1 du 2013-06-21": "CECILL-2.1"
     },
@@ -187,9 +187,9 @@ KNOWN_FIRST_LINES = {
         }
     },
     "Licence Art Libre 1.3 (LAL 1.3)": "LAL-1.3",
-    "Licence Libre du Qu\u00e9bec \u2013 Permissive (LiLiQ-P)": "LiLiQ-P-1.1",
-    "Licence Libre du Qu\u00e9bec \u2013 R\u00e9ciprocit\u00e9 (LiLiQ-R)": "LiLiQ-R-1.1",
-    "Licence Libre du Qu\u00e9bec \u2013 R\u00e9ciprocit\u00e9 forte (LiLiQ-R+)": "LiLiQ-Rplus-1.1",
+    "Licence Libre du Quebec - Permissive (LiLiQ-P)": "LiLiQ-P-1.1",
+    "Licence Libre du Quebec - Reciprocite (LiLiQ-R)": "LiLiQ-R-1.1",
+    "Licence Libre du Quebec - Reciprocite forte (LiLiQ-R+)": "LiLiQ-Rplus-1.1",
     "Licence Version 2": "Eurosym",
     "License to copy and use this software is granted provided that it is identified as the \"RSA Data Security, Inc. .* Message-Digest Algorithm\" in all material mentioning or referencing this software or this function.": "RSA-MD",
     "Lucent Public License": {
@@ -398,14 +398,7 @@ KNOWN_FIRST_LINES = {
     "This software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.": "Leptonica",
     "This software is not subject to any license of the American Telephone and Telegraph Company or of the Regents of the University of California.": "Spencer-94",
     "This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.": {
-        "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:":
-        {
-            "The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment (see the following) in the product documentation is required.":
-            {
-                "Portions Copyright \u00a9 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov, Charlie Poole or Copyright \u00a9 2000-2004 Philip A. Craig": "Nunit",
-                "Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.": "zlib-acknowledgement"
-            }
-        }
+        "Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:": "zlib-like",
     },
     "This source code has been made available to you by IBM on an AS-IS basis. Anyone receiving this source is licensed under IBM copyrights to use it in any way he or she deems fit, including copying it, modifying it, compiling it, and redistributing it either with or without modifications. No license under IBM patents or patent applications is to be implied by the copyright license.": "IBM-pibs",
     "This work is being provided by the copyright holders under the following license.": "W3C-20150513",
@@ -422,7 +415,7 @@ KNOWN_FIRST_LINES = {
     "Version 1.0.5 of 10 December 2007": "bzip2-1.0.5",
     "Vovida Software License v. 1.0": "VSL-1.0",
     "W3C SOFTWARE NOTICE AND LICENSE": "W3C",
-    "W3C\u00ae SOFTWARE NOTICE AND LICENSE": "W3C-19980720",
+    "W3C(r) SOFTWARE NOTICE AND LICENSE": "W3C-19980720",
     "X11 License": "X11",
     "XFree86 License (version 1.1)": "XFree86-1.1",
     "Yahoo! Public License, Version 1.0 (YPL)": "YPL-1.0",
@@ -437,17 +430,21 @@ KNOWN_FIRST_LINES = {
     "Zope Public License (ZPL) Version 2.1": "ZPL-2.1",
     "cwpuzzle.dtx is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. No author or distributor accepts responsibility to anyone for the consequences of using it or for whether it serves any particular purpose or works at all, unless he says so in writing.": "Crossword",
     "gSOAP Public License": "gSOAP-1.3b",
-    "insert GPL v2 text here": "deprecated_GPL-2.0-with-GCC-exception",
-    "insert GPL v3 text here": "deprecated_GPL-3.0-with-autoconf-exception",
+    "insert GPL v2 text here": {
+        "GCC Linking Exception": "deprecated_GPL-2.0-with-GCC-exception",
+        "Font Exception": "deprecated_GPL-2.0-with-font-exception"
+    },
+    "insert GPL v3 text here": {
+        "AUTOCONF CONFIGURE SCRIPT EXCEPTION": "deprecated_GPL-3.0-with-autoconf-exception",
+        "GCC RUNTIME LIBRARY EXCEPTION": "deprecated_GPL-3.0-with-GCC-exception"
+    },
     "psfrag.dtx": "psfrag",
     "wxWindows Library Licence, Version 3.1": "deprecated_WXwindows",
     "zlib License": "Zlib",
-    "\ufeffinsert GPL v2 license text here": {
+    "insert GPL v2 license text here": {
         "Autoconf Exception": "deprecated_GPL-2.0-with-autoconf-exception",
         "Class Path Exception": "deprecated_GPL-2.0-with-classpath-exception"
     },
-    "\ufeffinsert GPL v2 text here": "deprecated_GPL-2.0-with-font-exception",
-    "\ufeffinsert GPL v3 text here": "deprecated_GPL-3.0-with-GCC-exception",
     "Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at": "Apache-2.0",
     "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION": "Apache-2.0",
     "Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.": "ISC"
