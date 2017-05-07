@@ -54,8 +54,9 @@ def line_match_pattern(line, patterns):
             # to find if a subpattern match the end of it.
             remaining_str = line[len(matched.group(0)):].strip()
             if remaining_str:
-                return line_match_pattern(remaining_str,
-                                          patterns[potential_regex])
+                return (line_match_pattern(remaining_str,
+                                           patterns[potential_regex]) or
+                        patterns[potential_regex])
             return patterns[potential_regex]
 
 
