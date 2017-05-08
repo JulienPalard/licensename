@@ -81,7 +81,6 @@ LICENSE_TREE = (
     ("unicode, inc. license agreement - data files and software", (
         ("http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.", "Unicode-DFS-2016"),
         ("unicode data files do not include pdf online code charts under the directory", "Unicode-DFS-2015"))),
-    ("motosoto open source license - version 0.9.1", "Motosoto"),
     ("this copy of the libpng notices is provided for your convenience.", "Libpng"),
     (MIT_PREAMBLE, (
         ("x11 license", "X11"),
@@ -300,9 +299,6 @@ LICENSE_TREE = (
     ("open software license v. 3.0 (osl-3.0)", "OSL-3.0"),
     ("you can do what you want with it", "diffmark"),
     ("attribution assurance license", "AAL"),
-    ("bittorrent open source license", (
-        ("in particular, you must make the source code of your modifications available to others free of charge and without a royalty.", "BitTorrent-1.1"),
-        ("in particular, you must make the source code of your modifications available to others.", "BitTorrent-1.0"))),
     ("the frameworx open license 1.0", "Frameworx-1.0"),
     ("crystal stacker is freeware. this means you can pass copies around freely provided you include this document in it's original form in your distribution. please see the \"contacting us\" section of this document if you need to contact us for any reason.", "CrystalStacker"),
     ("nethack general public license", "NGPL"),
@@ -412,6 +408,12 @@ LICENSE_TREE = (
     ("installation, use, reproduction, display, modification", (
         ("condor public license", "Condor-1.1"),
         ("eu datagrid software license", "EUDatagrid"),
+    )),
+    ("you are allowed to make modifications", (
+        ("bittorrent open source license", (
+            ("in particular, you must make the source code of your modifications available to others free of charge and without a royalty.", "BitTorrent-1.1"),
+            ("in particular, you must make the source code of your modifications available to others.", "BitTorrent-1.0"))),
+        ("motosoto open source license - version 0.9.1", "Motosoto"),
     )),
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
