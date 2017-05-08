@@ -367,7 +367,6 @@ LICENSE_TREE = (
         ("version 1.0", "NOSL"),)),
     ("microsoft reciprocal license (ms-rl)", "MS-RL"),
     ("this work is being provided by the copyright holders under the following license.", "W3C-20150513"),
-    ("vim license", "Vim"),
     ("this software is not subject to any license of the american telephone and telegraph company or of the regents of the university of california.", "Spencer-94"),
     ("open cascade technology public license", (
         ("version 6.6, april 2013", "OCCT-PL"),)),
@@ -425,4 +424,5 @@ LICENSE_TREE = (
     )),
     ("this program is distributed with no warranty of any sort.", "MakeIndex"),
     ("except as necessary to recognize third-party rights or third-party restriction", "OCLC-2.0"),
+    ("it is not allowed to remove this license", "Vim"),
 )
