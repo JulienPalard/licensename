@@ -274,7 +274,7 @@ LICENSE_TREE = (
         ("version 1.1.0", "eGenix"),)),
     ("use and copying of this software and preparation of derivative works based upon this", "Xerox"),
     ("unicode terms of use", "Unicode-TOU"),
-    ("simple public license (simpl)", "SimPL-2.0"),
+    ("you get the royalty free right to:", "SimPL-2.0"),
     ("non-profit open software license 3.0", "NPOSL-3.0"),
     ("this configure script is free software; the free software foundation gives unlimited permission to copy, distribute and modify it.", "FSFUL"),
     ("noweb is copyright 1989-2000 by norman ramsey. all rights reserved.", "Noweb"),
