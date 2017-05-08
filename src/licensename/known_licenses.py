@@ -270,7 +270,7 @@ KNOWN_FIRST_LINES = {
     "reciprocal public license, version 1.1": "RPL-1.1",
     "red hat ecos public license v1.1": "RHeCos-1.1",
     "redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:": "AMDPLPA",
-    "redistribution and use in source and binary forms, with or without": {
+    "redistribution and use in source and binary forms, with or": {
         "redistribution of source code must retain the above copyright": {
             "you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.": "BSD-3-Clause-No-Nuclear",
             "you acknowledge that this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.": "BSD-3-Clause-No-Nuclear"},
