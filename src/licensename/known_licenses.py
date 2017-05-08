@@ -103,7 +103,6 @@ LICENSE_TREE = (
         ("v.2.1", "AFL-2.1"))),
     ("you may freely use, modify, and/or distribute each of the files in this package without limitation. the package consists of the following files:", "Borceux"),
     ("the artistic license 2.0", "Artistic-2.0"),
-    ("zimbra public license, version 1.3 (zpl)", "Zimbra-1.3"),
     ("a world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted", "AMPAS"),
     ("nrl license", "NRL"),
     ("permission to use, copy, and distribute this software", (
@@ -158,7 +157,6 @@ LICENSE_TREE = (
     ("permission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:", (
         ("the author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it.", "Spencer-86"),
         ("this software is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.", "Newsletr"))),
-    ("zimbra public license, version 1.4 (zpl)", "Zimbra-1.4"),
     ("european union public licence", (
         ("v.1.0", "EUPL-1.0"),
         ("v. 1.1", "EUPL-1.1"))),
@@ -284,7 +282,6 @@ LICENSE_TREE = (
     ("the source code in this package is copyright 1999-2010 by andrew plotkin.", "Glulxe"),
     ("rdisc (this program) was developed by sun microsystems, inc. and is provided for unrestricted use provided that this legend is included on all tape media and as a part of the software program in whole or part. users may copy or modify rdisc without charge, and they may freely distribute it.", "Rdisc"),
     ("antlr 2 license", "ANTLR-PD"),
-    ("yahoo! public license, version 1.1 (ypl)", "YPL-1.1"),
     ("this is apreambl.tex, version 1.10e, written by hans-hermann bode", "Abstyles"),
     ("open software license v. 3.0 (osl-3.0)", "OSL-3.0"),
     ("you can do what you want with it", "diffmark"),
@@ -317,7 +314,6 @@ LICENSE_TREE = (
     ("lesser general public license for linguistic resources", "LGPLLR"),
     ("a modified version of this file may be distributed, but it should be distributed with a *different* name. changed files must be distributed *together with a complete and unchanged* distribution of these files.", "dvipdfm"),
     ("license to copy and use this software is granted provided that it is identified as the \"rsa data security, inc.", "RSA-MD"),
-    ("yahoo! public license, version 1.0 (ypl)", "YPL-1.0"),
     ("the latex project public license", (
         ("lppl version 1.0 1999-03-01", "LPPL-1.0"),
         ("lppl version 1.3a 2004-10-01", "LPPL-1.3a"),
@@ -421,6 +417,12 @@ LICENSE_TREE = (
             ("version 2.0 - august 6, 2003", "APSL-2.0"))),
         ("reciprocal public license, version 1.1", "RPL-1.1"),
         ("sybase open watcom public license version 1.0", "Watcom-1.0"),
+    )),
+    ("this agreement does not limit your right to distribute files", (
+        ("yahoo! public license, version 1.1 (ypl)", "YPL-1.1"),
+        ("yahoo! public license, version 1.0 (ypl)", "YPL-1.0"),
+        ("zimbra public license, version 1.3 (zpl)", "Zimbra-1.3"),
+        ("zimbra public license, version 1.4 (zpl)", "Zimbra-1.4"),
     )),
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
