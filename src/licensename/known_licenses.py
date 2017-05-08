@@ -1,4 +1,4 @@
-MIT_PREAMBLE = "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"software\"), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions:"
+MIT_PREAMBLE = "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"software\"), to deal"
 BSD_PREAMBLE = "redistribution and use in source and binary forms, with or without modification"
 BSD_CLAUSE_1 = "redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer."
 BSD_CLAUSE_2 = "redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution."
@@ -59,7 +59,6 @@ LICENSE_TREE = (
     ("this software is distributed in the hope that it will be useful, but with no warranty of any kind.", "Leptonica"),
     ("copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the", "FSFAP"),
     ("sgi free software license b", (
-        ("(version 2.0, sept. 18, 2008)", "SGI-B-2.0"),
         ("(version 1.0 1/25/2000)", "SGI-B-1.0"),
         ("(version 1.1 02/22/2000)", "SGI-B-1.1"))),
     ("insert gpl v3 text here", (
@@ -86,6 +85,12 @@ LICENSE_TREE = (
     ("this copy of the libpng notices is provided for your convenience.", "Libpng"),
     (MIT_PREAMBLE, (
         ("x11 license", "X11"),
+        ("icu license - icu 1.8.1 and later", "ICU"),
+        ("imlib2 license", "Imlib2"),
+        ("university of illinois/ncsa open source license", "NCSA"),
+        ("(version 2.0, sept. 18, 2008)", "SGI-B-2.0"),
+        ("xfree86 license (version 1.1)", "XFree86-1.1"),
+        ("the x.net, inc. license", "Xnet"),
         ("the above copyright notice and this permission notice shall be included in all copies of the software and its documentation and acknowledgment shall be given in the documentation and software packages that this software was used.", "MIT-feh"),
         (
             "the above copyright notice and this permission notice shall be", (
@@ -175,7 +180,6 @@ LICENSE_TREE = (
     ("license for the extreme! lab pullparser", "xpp"),
     ("caldera international, inc. hereby grants a fee free license", "Caldera"),
     ("this file is free software; the free software foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.", "FSFULLR"),
-    ("university of illinois/ncsa open source license", "NCSA"),
     ("cnri open source license agreement", "CNRI-Python"),
     ("ricoh source code public license", (
         ("version 1.0", "RSCPL"),)),
@@ -283,7 +287,6 @@ LICENSE_TREE = (
         ("version 2.0 - august 6, 2003", "APSL-2.0"))),
     ("unicode terms of use", "Unicode-TOU"),
     ("simple public license (simpl)", "SimPL-2.0"),
-    ("the x.net, inc. license", "Xnet"),
     ("non-profit open software license 3.0", "NPOSL-3.0"),
     ("this configure script is free software; the free software foundation gives unlimited permission to copy, distribute and modify it.", "FSFUL"),
     ("reciprocal public license, version 1.1", "RPL-1.1"),
@@ -331,7 +334,6 @@ LICENSE_TREE = (
     ("a modified version of this file may be distributed, but it should be distributed with a *different* name. changed files must be distributed *together with a complete and unchanged* distribution of these files.", "dvipdfm"),
     ("license to copy and use this software is granted provided that it is identified as the \"rsa data security, inc.", "RSA-MD"),
     ("sybase open watcom public license version 1.0", "Watcom-1.0"),
-    ("icu license - icu 1.8.1 and later", "ICU"),
     ("yahoo! public license, version 1.0 (ypl)", "YPL-1.0"),
     ("the latex project public license", (
         ("lppl version 1.0 1999-03-01", "LPPL-1.0"),
@@ -342,7 +344,6 @@ LICENSE_TREE = (
     ("this code is derived from software contributed to the netbsd foundation by", "BSD-2-Clause-NetBSD"),
     ("this program is free software; you can redistribute it freely.", (
         ("use it at your own risk; there is no warranty.", "XSkat"),)),
-    ("imlib2 license", "Imlib2"),
     ("gnu free documentation license", (
         ("version 1.1, march 2000", "GFDL-1.1"),
         ("version 1.2, november 2002", "GFDL-1.2"),
@@ -356,7 +357,6 @@ LICENSE_TREE = (
     ("this software is provided 'as-is', without any express or implied warranty. in no event will the authors be held liable for any damages arising from the use of this software.", (
         ("source versions may not be \"relicensed\" under a different license", "Cube"),
         ("permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:", "zlib-like"),)),
-    ("xfree86 license (version 1.1)", "XFree86-1.1"),
     ("jasper license version 2.0", "JasPer-2.0"),
     ("eiffel forum license,", (
         ("version 2", "EFL-2.0"),
