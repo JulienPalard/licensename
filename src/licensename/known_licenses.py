@@ -60,7 +60,6 @@ LICENSE_TREE = (
         ("version 1.2", "AFL-1.2"))),
     ("permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.", "Latex2e"),
     ("this software is distributed in the hope that it will be useful, but with no warranty of any kind.", "Leptonica"),
-    ("wxwindows library licence, version 3.1", "deprecated_WXwindows"),
     ("copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the", "FSFAP"),
     ("sgi free software license b", (
         ("(version 2.0, sept. 18, 2008)", "SGI-B-2.0"),
@@ -118,9 +117,6 @@ LICENSE_TREE = (
     ("a world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted", "AMPAS"),
     ("nrl license", "NRL"),
     ("microsoft public license (ms-pl)", "MS-PL"),
-    ("gnu library general public license", (
-        ("version 2.1, february 1999", "LGPL-2.1"),
-        ("version 2, june 1991", "LGPL-2.0"))),
     ("permission to use, copy, and distribute this software", (
         ("gl2ps license version 2, november 2003", "GL2PS"),
         ("original license: this software is", "xinetd"),
@@ -300,10 +296,6 @@ LICENSE_TREE = (
     ("gnu lesser general public license", (
         ("version 2.1, february 1999", "LGPL-2.1"),
         ("version 3, 29 june 2007", "LGPL-3.0"))),
-    ("gnu general public license", (
-        ("version 3, 29 june 2007", "GPL-3.0"),
-        ("version 1, february 1989", "GPL-1.0"),
-        ("version 2, june 1991", "GPL-2.0"))),
     ("ibm public license version 1.0", "IPL-1.0"),
     ("open software licensev. 2.0", "OSL-2.0"),
     ("this fastcgi application library source and object code (the \"software\")", "OML"),
@@ -382,22 +374,14 @@ LICENSE_TREE = (
     ("cwpuzzle.dtx is distributed in the hope that it will be useful, but without any warranty. no author or distributor accepts responsibility to anyone for the consequences of using it or for whether it serves any particular purpose or works at all, unless he says so in writing.", "Crossword"),
     ("this license agreement is between the corporation for national research initiatives, having an office at 1895 preston white drive, reston, va 20191 (\"cnri\"), and the individual or organization (\"licensee\") accessing and using jpython version 1.1.x in source or binary form and its associated documentation as provided herein (\"software\").", "CNRI-Jython"),
     ("permission to use, copy, modify, and distribute this software for any purpose", "curl"),
-    ("aladdin free public license", (
-        ("(version 8, november 18, 1999)", "Aladdin"),)),
     ("makeindex distribution notice", "MakeIndex"),
     ("common public license version 1.0", "CPL-1.0"),
-    ("the ecos license version 2.0", "deprecated_eCos-2.0"),
-    ("computer associates trusted open source license", (
-        ("version 1.1", "CATOSL-1.1"),)),
-    ("permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that", "libtiff"),
     ("bsd protection license", (
         ("february 2002", "BSD-Protection"),)),
     ("the open software license", (
         ("v. 1.0", "OSL-1.0"),
         ("v. 1.1", "OSL-1.1"),
         ("v. 2.1", "OSL-2.1"))),
-    ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
-    ("redistribution and use in any form of this material and any product thereof", "AMDPLPA"),
     ("the authors hereby grant permission to use", (
         ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
         ("the authors and distributors specifically disclaim any warranties", "TCL"))),
@@ -413,5 +397,26 @@ LICENSE_TREE = (
         ("the clarified artistic license", "ClArtistic"),
         ("the open group test suite license", "OGTSL"),
         ("you may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.", "Ruby"),
-    ))
+    )),
+    ("in the hope that it will be useful", (
+        ("gnu library general public license", (
+            ("version 2.1, february 1999", "LGPL-2.1"),
+            ("version 2, june 1991", "LGPL-2.0"))),
+        ("gnu general public license", (
+            ("version 3, 29 june 2007", "GPL-3.0"),
+            ("version 1, february 1989", "GPL-1.0"),
+            ("version 2, june 1991", "GPL-2.0"))),
+        ("wxwindows library licence, version 3.1", "deprecated_WXwindows"),
+        ("the ecos license version 2.0", "deprecated_eCos-2.0"),
+    )),
+    # Snowflakes:
+    ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
+    ("redistribution and use in any form of this material and any product thereof", "AMDPLPA"),
+    ("permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that", "libtiff"),
+    ("computer associates trusted open source license", (
+        ("version 1.1", "CATOSL-1.1"),)),
+    ("by modifying or distributing the program", (
+        ("aladdin free public license", (
+            ("(version 8, november 18, 1999)", "Aladdin"),)),
+    )),
 )
