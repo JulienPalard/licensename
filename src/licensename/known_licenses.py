@@ -407,7 +407,7 @@ LICENSE_TREE = (
         ("v. 2.1", "OSL-2.1"))),
     ("the clarified artistic license", "ClArtistic"),
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
-    ("redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:", "AMDPLPA"),
+    ("redistribution and use in any form of this material and any product thereof", "AMDPLPA"),
     ("the authors hereby grant permission to use", (
         ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
         ("the authors and distributors specifically disclaim any warranties", "TCL"))),
