@@ -124,6 +124,7 @@ LICENSE_TREE = (
         ("red hat ecos public license v1.1", "RHeCos-1.1"),
         ("sun industry standards source license", (
             ("version 1.2", "SISSL-1.2"),)),
+        ("sun industry standards source license - version 1.1", "SISSL"),
         ("storage networking industry association", (
             ("version 1.1", "SNIA"),)),
         ("sun public license version 1.0", "SPL-1.0"),
@@ -338,7 +339,6 @@ LICENSE_TREE = (
         ("version 1.1, march 2000", "GFDL-1.1"),
         ("version 1.2, november 2002", "GFDL-1.2"),
         ("version 1.3, 3 november 2008", "GFDL-1.3"))),
-    ("sun industry standards source license - version 1.1", "SISSL"),
     ("portions of this software were developed by the unidata program at the university corporation for atmospheric research.", "NetCDF"),
     ("this file may be freely copied and redistributed as long as:", "Afmparse"),
     ("this software is provided 'as-is', without any express or implied warranty. in no event will the authors be held liable for any damages arising from the use of this software.", (
