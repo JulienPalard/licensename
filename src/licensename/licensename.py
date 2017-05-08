@@ -20,7 +20,7 @@ import re
 
 from unidecode import unidecode
 from licensename import __version__
-from licensename.known_licenses import KNOWN_FIRST_LINES
+from licensename.known_licenses import LICENSE_TREE
 
 
 __author__ = "Julien Palard"
@@ -42,50 +42,33 @@ BULLET_ITEM = r'(?:{spaces}*{bullet_marker}{spaces}+)'.format(
 def line_match_pattern(line, patterns):
     if isinstance(patterns, str):
         return patterns
-    if line in patterns:
-        return patterns[line]
-    # Or regexes:
-    for potential_regex in patterns:
-        matched = re.match(potential_regex, line)
-        if matched:
-            # As re.match anchors to the beginning only,
-            # it can has matched a start of phrase, let's benefit this
-            # to find if a subpattern match the end of it.
-            remaining_str = line[len(matched.group(0)):].strip()
-            if remaining_str:
-                return (line_match_pattern(remaining_str,
-                                           patterns[potential_regex]) or
-                        patterns[potential_regex])
-            return patterns[potential_regex]
-
-
-def remove_useless_lines(license_text):
-    license_text = license_text.split('\n')
-    license_lines = [line if not line.startswith('Copyright') and
-                     not line.startswith('All rights reserved.') and
-                     '(c)' not in line and
-                     '(C)' not in line and
-                     not re.match('^[=-]*$', line) else '\n' for line in license_text]
-    return '\n'.join(license_lines)
+    for pattern, subpatterns in patterns:
+        if pattern in line:
+            found = line_match_pattern(line, subpatterns)
+            if found:
+                return found
 
 
 def canonicalize(license_text):
-    simplified_text = remove_useless_lines(license_text).lower()
+    simplified_text = license_text.lower()
     # Remove leading and trailing spaces:
-    simplified_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '', simplified_text, 0, re.M)
+    simplified_text = re.sub(r'^[ \t\f\v\xa0]+|[ \xA0\u2028\r\t\f\v]+$', '',
+                             simplified_text, 0, re.M)
     # Remove lists prefixes:
     simplified_text = re.sub('^[0-9*.+-]* +', '', simplified_text, 0, re.M)
     # Deduplicate spaces:
-    simplified_text = re.sub('[ \\t\xA0\u2028]+', ' ', simplified_text, 0, re.M)
+    simplified_text = re.sub(r'\s+', ' ', simplified_text, 0, re.M)
     # Replace unicode quotation marks by ascii ones
     simplified_text = unidecode(simplified_text)
+    # Deduplicate double quotes (thanks Microsoft):
+    simplified_text = simplified_text.replace('""', '"')
     return simplified_text
 
 
 def from_lines(license_lines):
     """Parse a license text, returns a license name.
     """
-    current_patterns = KNOWN_FIRST_LINES
+    current_patterns = LICENSE_TREE
     for line in license_lines:
         if not line:
             continue
