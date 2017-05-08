@@ -323,6 +323,7 @@ LICENSE_TREE = (
     ("this code is derived from software contributed to the netbsd foundation by", "BSD-2-Clause-NetBSD"),
     ("this program is free software", (
         ("under the terms of the gnu general public license as published by the free software foundation, either version 3 of the license", "GPL-3.0"),
+        ("under the terms of the gnu lesser general public license as published by the free software foundation, either version 3 of the license", "LGPL-3.0"),
         ("use it at your own risk; there is no warranty.", "XSkat"),)),
     ("gnu free documentation license", (
         ("version 1.1, march 2000", "GFDL-1.1"),
