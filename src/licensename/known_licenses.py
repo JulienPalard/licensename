@@ -161,7 +161,6 @@ LICENSE_TREE = (
     ("permission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:", (
         ("the author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it.", "Spencer-86"),
         ("this software is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.", "Newsletr"))),
-    ("zope public license (zpl) version 2.0", "ZPL-2.0"),
     ("zimbra public license, version 1.4 (zpl)", "Zimbra-1.4"),
     ("boost software license - version 1.0 - august 17th, 2003", "BSL-1.0"),
     ("allegro 4 (the giftware license)", "Giftware"),
@@ -217,6 +216,7 @@ LICENSE_TREE = (
                 ("version 1.0.5 of 10 december 2007", "bzip2-1.0.5"),
                 ("", "bzip2-1.0.6"),)))),
         ("redistributions in source code must retain the above copyright notice", (
+            ("zope public license (zpl) version 2.0", "ZPL-2.0"),
             ("all advertising materials and documentation mentioning features derived from or use of this software must display the following acknowledgement", "ZPL-1.1"),
             ("", "Naumen"))),
         ("redistribution of source code must retain the above copyright", (
