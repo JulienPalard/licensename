@@ -262,13 +262,6 @@ LICENSE_TREE = (
     ("zlib license", "Zlib"),
     ("psfrag.dtx", "psfrag"),
     ("this file and the 14 postscript(r) afm files it accompanies", "APAFML"),
-    ("each contributor grants you a non-exclusive", (
-        ("version 3, 19 november 2007", "AGPL-3.0"),
-        ("this program is free software: you can redistribute it and/or modify", (
-            ("either version 3", "GPL-3.0"),)),
-        ("microsoft reciprocal license (ms-rl)", "MS-RL"),
-        ("microsoft public license (ms-pl)", "MS-PL"),
-    )),
     ("affero general public license", (
         ("version 1, march 2002 copyright (c) 2002 affero inc. 510 third street - suite 225, san francisco, ca 94107, usa", "AGPL-1.0"),)),
     ("this program discloses material protectable under copyright laws of the united states.", "DSDP"),
@@ -292,9 +285,15 @@ LICENSE_TREE = (
     ("the frameworx open license 1.0", "Frameworx-1.0"),
     ("crystal stacker is freeware. this means you can pass copies around freely provided you include this document in it's original form in your distribution. please see the \"contacting us\" section of this document if you need to contact us for any reason.", "CrystalStacker"),
     ("nethack general public license", "NGPL"),
-    ("gnu lesser general public license", (
-        ("version 2.1, february 1999", "LGPL-2.1"),
-        ("version 3, 29 june 2007", "LGPL-3.0"))),
+    ("gnu lesser general public license version 2.1, february 1999", "LGPL-2.1"),
+    ("this version of the gnu lesser general public license", "LGPL-3.0"),
+    ("each contributor grants you a non-exclusive", (
+        ("version 3, 19 november 2007", "AGPL-3.0"),
+        ("this program is free software: you can redistribute it and/or modify", (
+            ("either version 3", "GPL-3.0"),)),
+        ("microsoft reciprocal license (ms-rl)", "MS-RL"),
+        ("microsoft public license (ms-pl)", "MS-PL"),
+    )),
     ("ibm public license version 1.0", "IPL-1.0"),
     ("open software licensev. 2.0", "OSL-2.0"),
     ("this fastcgi application library source and object code (the \"software\")", "OML"),
