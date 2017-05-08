@@ -105,7 +105,6 @@ LICENSE_TREE = (
     ("you may freely use, modify, and/or distribute each of the files in this package without limitation. the package consists of the following files:", "Borceux"),
     ("the artistic license 2.0", "Artistic-2.0"),
     ("zimbra public license, version 1.3 (zpl)", "Zimbra-1.3"),
-    ("eu datagrid software license", "EUDatagrid"),
     ("a world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted", "AMPAS"),
     ("nrl license", "NRL"),
     ("microsoft public license (ms-pl)", "MS-PL"),
@@ -366,7 +365,6 @@ LICENSE_TREE = (
     ("reciprocal public license 1.5 (rpl1.5)", "RPL-1.5"),
     ("netizen open source license", (
         ("version 1.0", "NOSL"),)),
-    ("condor public license", "Condor-1.1"),
     ("microsoft reciprocal license (ms-rl)", "MS-RL"),
     ("this work is being provided by the copyright holders under the following license.", "W3C-20150513"),
     ("vim license", "Vim"),
@@ -411,6 +409,10 @@ LICENSE_TREE = (
         ("lucent public license", (
             ("version 1.02", "LPL-1.02"),
             ("version 1.0", "LPL-1.0"),)),
+    )),
+    ("installation, use, reproduction, display, modification", (
+        ("condor public license", "Condor-1.1"),
+        ("eu datagrid software license", "EUDatagrid"),
     )),
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
