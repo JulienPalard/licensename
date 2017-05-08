@@ -1,4 +1,4 @@
-MIT_PREAMBLE = "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"software\"), to deal"
+MIT_PREAMBLE = "permission is hereby granted, free of charge, to any person obtaining a copy of"
 BSD_PREAMBLE = "redistribution and use in source and binary forms, with or without modification"
 BSD_CLAUSE_1 = "redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer."
 BSD_CLAUSE_2 = "redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution."
