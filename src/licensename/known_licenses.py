@@ -111,7 +111,6 @@ LICENSE_TREE = (
     ("zimbra public license, version 1.3 (zpl)", "Zimbra-1.3"),
     ("a world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted", "AMPAS"),
     ("nrl license", "NRL"),
-    ("microsoft public license (ms-pl)", "MS-PL"),
     ("permission to use, copy, and distribute this software", (
         ("gl2ps license version 2, november 2003", "GL2PS"),
         ("original license: this software is", "xinetd"),
@@ -270,11 +269,15 @@ LICENSE_TREE = (
     ("psfrag.dtx", "psfrag"),
     ("this file and the 14 postscript(r) afm files it accompanies", "APAFML"),
     ("before we get to the text of the license, lets just review what the license says in simple terms:", "ImageMagick"),
+    ("each contributor grants you a non-exclusive", (
+        ("version 3, 19 november 2007", "AGPL-3.0"),
+        ("this program is free software: you can redistribute it and/or modify", (
+            ("either version 3", "GPL-3.0"),)),
+        ("microsoft reciprocal license (ms-rl)", "MS-RL"),
+        ("microsoft public license (ms-pl)", "MS-PL"),
+    )),
     ("affero general public license", (
-        ("version 1, march 2002 copyright (c) 2002 affero inc. 510 third street - suite 225, san francisco, ca 94107, usa", "AGPL-1.0"),
-        ("version 3, 19 november 2007", "AGPL-3.0"),)),
-    ("this program is free software: you can redistribute it and/or modify", (
-        ("either version 3", "GPL-3.0"),)),
+        ("version 1, march 2002 copyright (c) 2002 affero inc. 510 third street - suite 225, san francisco, ca 94107, usa", "AGPL-1.0"),)),
     ("this program discloses material protectable under copyright laws of the united states.", "DSDP"),
     ("redistribution and use of this software and associated documentation (\"software\"), with or without modification, are permitted provided that the following conditions are met:", "Plexus"),
     ("egenix.com public license agreement", (
@@ -338,7 +341,8 @@ LICENSE_TREE = (
         ("lppl version 1.3c 2008-05-04", "LPPL-1.3c"),
         ("lppl version 1.2 1999-09-03", "LPPL-1.2"))),
     ("this code is derived from software contributed to the netbsd foundation by", "BSD-2-Clause-NetBSD"),
-    ("this program is free software; you can redistribute it freely.", (
+    ("this program is free software", (
+        ("under the terms of the gnu general public license as published by the free software foundation, either version 3 of the license", "GPL-3.0"),
         ("use it at your own risk; there is no warranty.", "XSkat"),)),
     ("gnu free documentation license", (
         ("version 1.1, march 2000", "GFDL-1.1"),
@@ -361,7 +365,6 @@ LICENSE_TREE = (
     ("reciprocal public license 1.5 (rpl1.5)", "RPL-1.5"),
     ("netizen open source license", (
         ("version 1.0", "NOSL"),)),
-    ("microsoft reciprocal license (ms-rl)", "MS-RL"),
     ("this work is being provided by the copyright holders under the following license.", "W3C-20150513"),
     ("this software is not subject to any license of the american telephone and telegraph company or of the regents of the university of california.", "Spencer-94"),
     ("open cascade technology public license", (
