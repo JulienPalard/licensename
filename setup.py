@@ -21,7 +21,7 @@ def setup_package():
     sphinx = ['sphinx'] if needs_sphinx else []
     setup(
         name='licensename',
-        version='0.4.1',
+        version='0.4.2',
         description='Find a license name from a license file.',
         long_description=readme,
         author='Julien Palard',

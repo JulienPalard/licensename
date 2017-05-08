@@ -2,6 +2,13 @@
 Changelog
 =========
 
+Version 0.4.2
+=============
+
+- Add a few licenses
+- Drop dependency to textunwrap
+
+
 Version 0.4.1
 =============
 
