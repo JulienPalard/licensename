@@ -71,8 +71,12 @@ LICENSE_TREE = (
         ("haskell 2010", "HaskellReport"),)),
     ("\"the beer-ware license\" (revision 42): <phk@freebsd.org> wrote this file.", "Beerware"),
     ("miros license", "MirOS"),
-    ("educational community license", (
-        ("version 2.0, april 2007", "ECL-2.0"),)),
+    ("each contributor hereby grants to you a perpetual, worldwide", (
+        ("educational community license", (
+            ("version 2.0, april 2007", "ECL-2.0"),)),
+        ("to apply the imagemagick license to your work", "ImageMagick"),
+        ("you may add your own copyright statement to your modifications", "Apache-2.0")
+    )),
     ("insert gpl v2 text here", (
         ("font exception", "deprecated_GPL-2.0-with-font-exception"),
         ("gcc linking exception", "deprecated_GPL-2.0-with-GCC-exception"))),
@@ -258,7 +262,6 @@ LICENSE_TREE = (
     ("zlib license", "Zlib"),
     ("psfrag.dtx", "psfrag"),
     ("this file and the 14 postscript(r) afm files it accompanies", "APAFML"),
-    ("before we get to the text of the license, lets just review what the license says in simple terms:", "ImageMagick"),
     ("each contributor grants you a non-exclusive", (
         ("version 3, 19 november 2007", "AGPL-3.0"),
         ("this program is free software: you can redistribute it and/or modify", (
