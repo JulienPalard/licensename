@@ -13,13 +13,9 @@ LICENSE_TREE = (
         ("version 2.3, 28 july 2000", "OLDAP-2.3"),
         ("version 2.2.2, 28 july 2000", "OLDAP-2.2.2"),
         ("version 2.8, 17 august 2003", "OLDAP-2.8"),
-        ("version 1.2, 1 september 1998", "OLDAP-1.2"),
-        ("version 1.1, 25 august 1998", "OLDAP-1.1"),
         ("version 2.2.1, 1 march 2000", "OLDAP-2.2.1"),
-        ("version 1.3, 17 january 1999", "OLDAP-1.3"),
         ("version 2.6, 14 june 2001", "OLDAP-2.6"),
         ("version 2.5, 11 may 2001", "OLDAP-2.5"),
-        ("version 1.4, 18 january 1999", "OLDAP-1.4"),
         ("version 2.0, 7 june 1999", "OLDAP-2.0"),
         ("version 2.4, 8 december 2000", "OLDAP-2.4"),
         ("version 2.1, 29 february 2000", "OLDAP-2.1"),
@@ -108,10 +104,8 @@ LICENSE_TREE = (
                 ("the software shall be used for good, not evil.", "JSON"),
                 ("without warranty of any kind", "MIT"))),
         ("the above copyright notice and this permission notice shall be included in all copies of the software", "MIT-advertising"))),
-    ("the net boolean public license", "NBPL-1.0"),
     ("ricoh source code public license", (
         ("version 1.0", "RSCPL"),)),
-    ("the open group test suite license", "OGTSL"),
     ("acpi - software license agreement", "Intel-ACPI"),
     ("the academic free license", (
         ("v. 2.0", "AFL-2.0"),
@@ -334,7 +328,6 @@ LICENSE_TREE = (
     ("licence version 2", "Eurosym"),
     ("lesser general public license for linguistic resources", "LGPLLR"),
     ("a modified version of this file may be distributed, but it should be distributed with a *different* name. changed files must be distributed *together with a complete and unchanged* distribution of these files.", "dvipdfm"),
-    ("you may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.", "Ruby"),
     ("w3c(r) software notice and license", "W3C-19980720"),
     ("license to copy and use this software is granted provided that it is identified as the \"rsa data security, inc.", "RSA-MD"),
     ("sybase open watcom public license version 1.0", "Watcom-1.0"),
@@ -359,7 +352,6 @@ LICENSE_TREE = (
     ("lucent public license", (
         ("version 1.02", "LPL-1.02"),
         ("version 1.0", "LPL-1.0"),)),
-    ("the \"artistic license\"", "Artistic-1.0-Perl"),
     ("this file may be freely copied and redistributed as long as:", "Afmparse"),
     ("sil open font license", (
         ("version 1.1 - 26 february 2007", "OFL-1.1"),
@@ -378,7 +370,6 @@ LICENSE_TREE = (
     ("reciprocal public license 1.5 (rpl1.5)", "RPL-1.5"),
     ("netizen open source license", (
         ("version 1.0", "NOSL"),)),
-    ("the artistic license", "Artistic-1.0"),
     ("condor public license", "Condor-1.1"),
     ("microsoft reciprocal license (ms-rl)", "MS-RL"),
     ("this work is being provided by the copyright holders under the following license.", "W3C-20150513"),
@@ -405,10 +396,22 @@ LICENSE_TREE = (
         ("v. 1.0", "OSL-1.0"),
         ("v. 1.1", "OSL-1.1"),
         ("v. 2.1", "OSL-2.1"))),
-    ("the clarified artistic license", "ClArtistic"),
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
     ("redistribution and use in any form of this material and any product thereof", "AMDPLPA"),
     ("the authors hereby grant permission to use", (
         ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
         ("the authors and distributors specifically disclaim any warranties", "TCL"))),
+    ("you may make and give away verbatim copies of the source", (
+        ("the openldap public license", (
+            ("version 1.2, 1 september 1998", "OLDAP-1.2"),
+            ("version 1.1, 25 august 1998", "OLDAP-1.1"),
+            ("version 1.3, 17 january 1999", "OLDAP-1.3"),
+            ("version 1.4, 18 january 1999", "OLDAP-1.4"))),
+        ("the net boolean public license", "NBPL-1.0"),
+        ("the \"artistic license\"", "Artistic-1.0-Perl"),
+        ("the artistic license", "Artistic-1.0"),
+        ("the clarified artistic license", "ClArtistic"),
+        ("the open group test suite license", "OGTSL"),
+        ("you may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.", "Ruby"),
+    ))
 )
