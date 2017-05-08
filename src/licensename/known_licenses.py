@@ -222,7 +222,6 @@ LICENSE_TREE = (
         ("redistribution of source code must retain the above copyright", (
             ("you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear"),
             ("you acknowledge that this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear"))))),
-    ("oclc research public license 2.0", "OCLC-2.0"),
     ("important: this apple software is supplied to you by apple computer, inc. (\"apple\")", "AML"),
     ("insert gpl v2 license text here", (
         ("class path exception", "deprecated_GPL-2.0-with-classpath-exception"),
@@ -423,4 +422,5 @@ LICENSE_TREE = (
             ("(version 8, november 18, 1999)", "Aladdin"),)),
     )),
     ("this program is distributed with no warranty of any sort.", "MakeIndex"),
+    ("except as necessary to recognize third-party rights or third-party restriction", "OCLC-2.0"),
 )
