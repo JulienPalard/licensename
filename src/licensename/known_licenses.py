@@ -39,9 +39,6 @@ LICENSE_TREE = (
         ("version 1.0", "CDDL-1.0"),
         ("version 1.1", "CDDL-1.1"))),
     ("the national science and technology research center for computation and visualization of geometric structures (the geometry center) university of minnesota", "Qhull"),
-    ("python software foundation license version 2", "Python-2.0"),
-    ("cnri open source license agreement", "CNRI-Python"),
-    ("realnetworks public source license version 1.0", "RPSL-1.0"),
     ("portions of this material resulted from work developed under a u.s. government contract", "mpich2"),
     ("sendmail license", "Sendmail"),
     ("odc open database license (odbl)", "ODbL-1.0"),
@@ -65,7 +62,6 @@ LICENSE_TREE = (
         ("(version 2.0, sept. 18, 2008)", "SGI-B-2.0"),
         ("(version 1.0 1/25/2000)", "SGI-B-1.0"),
         ("(version 1.1 02/22/2000)", "SGI-B-1.1"))),
-    ("derivative work - 1996, 1998-2000 copyright 1996, 1998-2000 the regents of the university of california", "MIT-CMU"),
     ("insert gpl v3 text here", (
         ("gcc runtime library exception", "deprecated_GPL-3.0-with-GCC-exception"),
         ("autoconf configure script exception", "deprecated_GPL-3.0-with-autoconf-exception"))),
@@ -75,7 +71,6 @@ LICENSE_TREE = (
     ("ipa font license agreement v1.0", "IPA"),
     ("code derived from the document", (
         ("haskell 2010", "HaskellReport"),)),
-    ("university of illinois/ncsa open source license", "NCSA"),
     ("\"the beer-ware license\" (revision 42): <phk@freebsd.org> wrote this file.", "Beerware"),
     ("miros license", "MirOS"),
     ("educational community license", (
@@ -103,13 +98,10 @@ LICENSE_TREE = (
                 ("the software shall be used for good, not evil.", "JSON"),
                 ("without warranty of any kind", "MIT"))),
         ("the above copyright notice and this permission notice shall be included in all copies of the software", "MIT-advertising"))),
-    ("ricoh source code public license", (
-        ("version 1.0", "RSCPL"),)),
     ("acpi - software license agreement", "Intel-ACPI"),
     ("the academic free license", (
         ("v. 2.0", "AFL-2.0"),
         ("v.2.1", "AFL-2.1"))),
-    ("intel open source license", "Intel"),
     ("you may freely use, modify, and/or distribute each of the files in this package without limitation. the package consists of the following files:", "Borceux"),
     ("the artistic license 2.0", "Artistic-2.0"),
     ("zimbra public license, version 1.3 (zpl)", "Zimbra-1.3"),
@@ -121,7 +113,6 @@ LICENSE_TREE = (
         ("gl2ps license version 2, november 2003", "GL2PS"),
         ("original license: this software is", "xinetd"),
         ("permission to modify the software is granted", "gnuplot"))),
-    ("the educational community license", "ECL-1.0"),
     ("sugarcrm public license", "SugarCRM-1.1.3"),
     ("the initial developer hereby grants you a world-wide, royalty-free, non-exclusive license, subject to third party intellectual property claims:", (
         ("common public attribution license version 1.0", "CPAL-1.0"),
@@ -139,6 +130,26 @@ LICENSE_TREE = (
             ("version 1.1", "SNIA"),)),
         ("sun public license version 1.0", "SPL-1.0"),
         ("gsoap public license", "gSOAP-1.3b"),
+    )),
+    ("permission to use, copy, modify", (
+        ("and/or distribute this software for any purpose with or without fee is hereby granted.", "0BSD"),
+        ("the educational community license", "ECL-1.0"),
+        ("historical permission notice and disclaimer", "HPND"),
+        ("and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.", "ISC"),
+        ("derivative work - 1996, 1998-2000 copyright 1996, 1998-2000 the regents of the university of california", "MIT-CMU"),
+        ("multics license", "Multics"),
+        ("ntp license (ntp)", "NTP"),
+        ("the open source pil software license:", "PIL"),
+        ("postgresql database management system", "PostgreSQL"),
+        ("python software foundation license version 2", "Python-2.0"),
+        ("realnetworks public source license version 1.0", "RPSL-1.0"),
+        ("standard ml of new jersey copyright notice, license and disclaimer.", "SMLNJ"),
+        ("the authors hereby grant permission to use", (
+            ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
+            ("the authors and distributors specifically disclaim any warranties", "TCL"))),
+        ("w3c(r) software notice and license", "W3C-19980720"),
+        ("and distribute this software for any purpose", "curl"),
+        ("distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that", "libtiff"),
     )),
     ("mozilla public license", (
         ("version 2.0", "MPL-2.0"),
@@ -158,8 +169,6 @@ LICENSE_TREE = (
         ("v.1.0", "EUPL-1.0"),
         ("v. 1.1", "EUPL-1.1"))),
     ("openssl license", "OpenSSL"),
-    ("multics license", "Multics"),
-    ("standard ml of new jersey copyright notice, license and disclaimer.", "SMLNJ"),
     ("the tmate open source license.", "TMate"),
     ("this source code has been made available to you by ibm on an as-is basis.", "IBM-pibs"),
     ("cnri open source gpl-compatible license agreement", "CNRI-Python-GPL-Compatible"),
@@ -168,6 +177,11 @@ LICENSE_TREE = (
     ("license for the extreme! lab pullparser", "xpp"),
     ("caldera international, inc. hereby grants a fee free license", "Caldera"),
     ("this file is free software; the free software foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.", "FSFULLR"),
+    ("university of illinois/ncsa open source license", "NCSA"),
+    ("cnri open source license agreement", "CNRI-Python"),
+    ("ricoh source code public license", (
+        ("version 1.0", "RSCPL"),)),
+    ("intel open source license", "Intel"),
     ("these patterns were developed for internal gmv use and are made public", "Bahyph"),
     ("development of this software was funded, in part, by cray research inc., uunet communications services inc., sun microsystems inc., and scriptics corporation, none of whom are responsible for the results. the author thanks all of them.", "Spencer-99"),
     ("the php license,", (
@@ -269,7 +283,6 @@ LICENSE_TREE = (
         ("version 1.1 - april 19,1999", "APSL-1.1"),
         ("version 1.0 - march 16, 1999", "APSL-1.0"),
         ("version 2.0 - august 6, 2003", "APSL-2.0"))),
-    ("ntp license (ntp)", "NTP"),
     ("unicode terms of use", "Unicode-TOU"),
     ("simple public license (simpl)", "SimPL-2.0"),
     ("the x.net, inc. license", "Xnet"),
@@ -306,7 +319,6 @@ LICENSE_TREE = (
     ("w3c software notice and license", "W3C"),
     ("adaptive public license", (
         ("version 1.0", "APL-1.0"),)),
-    ("the open source pil software license:", "PIL"),
     ("open data commons - public domain dedication & license (pddl)", "PDDL-1.0"),
     ("bison exception", "deprecated_GPL-2.0-with-bison-exception"),
     ("this is a package of commutative diagram macros built on top of xy-pic", "Barr"),
@@ -319,7 +331,6 @@ LICENSE_TREE = (
     ("licence version 2", "Eurosym"),
     ("lesser general public license for linguistic resources", "LGPLLR"),
     ("a modified version of this file may be distributed, but it should be distributed with a *different* name. changed files must be distributed *together with a complete and unchanged* distribution of these files.", "dvipdfm"),
-    ("w3c(r) software notice and license", "W3C-19980720"),
     ("license to copy and use this software is granted provided that it is identified as the \"rsa data security, inc.", "RSA-MD"),
     ("sybase open watcom public license version 1.0", "Watcom-1.0"),
     ("icu license - icu 1.8.1 and later", "ICU"),
@@ -348,8 +359,6 @@ LICENSE_TREE = (
         ("source versions may not be \"relicensed\" under a different license", "Cube"),
         ("permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:", "zlib-like"),)),
     ("xfree86 license (version 1.1)", "XFree86-1.1"),
-    ("permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.", "ISC"),
-    ("permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.", "0BSD"),
     ("jasper license version 2.0", "JasPer-2.0"),
     ("eiffel forum license,", (
         ("version 2", "EFL-2.0"),
@@ -361,24 +370,18 @@ LICENSE_TREE = (
     ("condor public license", "Condor-1.1"),
     ("microsoft reciprocal license (ms-rl)", "MS-RL"),
     ("this work is being provided by the copyright holders under the following license.", "W3C-20150513"),
-    ("historical permission notice and disclaimer", "HPND"),
     ("vim license", "Vim"),
     ("this software is not subject to any license of the american telephone and telegraph company or of the regents of the university of california.", "Spencer-94"),
     ("open cascade technology public license", (
         ("version 6.6, april 2013", "OCCT-PL"),)),
-    ("postgresql database management system", "PostgreSQL"),
     ("cwpuzzle.dtx is distributed in the hope that it will be useful, but without any warranty. no author or distributor accepts responsibility to anyone for the consequences of using it or for whether it serves any particular purpose or works at all, unless he says so in writing.", "Crossword"),
     ("this license agreement is between the corporation for national research initiatives, having an office at 1895 preston white drive, reston, va 20191 (\"cnri\"), and the individual or organization (\"licensee\") accessing and using jpython version 1.1.x in source or binary form and its associated documentation as provided herein (\"software\").", "CNRI-Jython"),
-    ("permission to use, copy, modify, and distribute this software for any purpose", "curl"),
     ("bsd protection license", (
         ("february 2002", "BSD-Protection"),)),
     ("the open software license", (
         ("v. 1.0", "OSL-1.0"),
         ("v. 1.1", "OSL-1.1"),
         ("v. 2.1", "OSL-2.1"))),
-    ("the authors hereby grant permission to use", (
-        ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
-        ("the authors and distributors specifically disclaim any warranties", "TCL"))),
     ("you may make and give away verbatim copies of the source", (
         ("the openldap public license", (
             ("version 1.2, 1 september 1998", "OLDAP-1.2"),
@@ -413,7 +416,6 @@ LICENSE_TREE = (
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
     ("redistribution and use in any form of this material and any product thereof", "AMDPLPA"),
-    ("permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that", "libtiff"),
     ("computer associates trusted open source license", (
         ("version 1.1", "CATOSL-1.1"),)),
     ("by modifying or distributing the program", (
