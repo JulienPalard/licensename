@@ -281,7 +281,6 @@ LICENSE_TREE = (
     ("the source code in this package is copyright 1999-2010 by andrew plotkin.", "Glulxe"),
     ("rdisc (this program) was developed by sun microsystems, inc. and is provided for unrestricted use provided that this legend is included on all tape media and as a part of the software program in whole or part. users may copy or modify rdisc without charge, and they may freely distribute it.", "Rdisc"),
     ("antlr 2 license", "ANTLR-PD"),
-    ("eclipse public license - v 1.0", "EPL-1.0"),
     ("yahoo! public license, version 1.1 (ypl)", "YPL-1.1"),
     ("this is apreambl.tex, version 1.10e, written by hans-hermann bode", "Abstyles"),
     ("open software license v. 3.0 (osl-3.0)", "OSL-3.0"),
@@ -341,9 +340,6 @@ LICENSE_TREE = (
         ("version 1.3, 3 november 2008", "GFDL-1.3"))),
     ("sun industry standards source license - version 1.1", "SISSL"),
     ("portions of this software were developed by the unidata program at the university corporation for atmospheric research.", "NetCDF"),
-    ("lucent public license", (
-        ("version 1.02", "LPL-1.02"),
-        ("version 1.0", "LPL-1.0"),)),
     ("this file may be freely copied and redistributed as long as:", "Afmparse"),
     ("sil open font license", (
         ("version 1.1 - 26 february 2007", "OFL-1.1"),
@@ -375,7 +371,6 @@ LICENSE_TREE = (
     ("this license agreement is between the corporation for national research initiatives, having an office at 1895 preston white drive, reston, va 20191 (\"cnri\"), and the individual or organization (\"licensee\") accessing and using jpython version 1.1.x in source or binary form and its associated documentation as provided herein (\"software\").", "CNRI-Jython"),
     ("permission to use, copy, modify, and distribute this software for any purpose", "curl"),
     ("makeindex distribution notice", "MakeIndex"),
-    ("common public license version 1.0", "CPL-1.0"),
     ("bsd protection license", (
         ("february 2002", "BSD-Protection"),)),
     ("the open software license", (
@@ -408,6 +403,13 @@ LICENSE_TREE = (
             ("version 2, june 1991", "GPL-2.0"))),
         ("wxwindows library licence, version 3.1", "deprecated_WXwindows"),
         ("the ecos license version 2.0", "deprecated_eCos-2.0"),
+    )),
+    ("subject to the terms of this agreement, each contributor hereby grants", (
+        ("common public license version 1.0", "CPL-1.0"),
+        ("eclipse public license - v 1.0", "EPL-1.0"),
+        ("lucent public license", (
+            ("version 1.02", "LPL-1.02"),
+            ("version 1.0", "LPL-1.0"),)),
     )),
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
