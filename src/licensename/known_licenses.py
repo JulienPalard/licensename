@@ -7,6 +7,91 @@ BSD_CLAUSE_4 = "be used to endorse or promote products derived from this softwar
 
 
 LICENSE_TREE = (
+    (MIT_PREAMBLE, (
+        ("x11 license", "X11"),
+        ("icu license - icu 1.8.1 and later", "ICU"),
+        ("imlib2 license", "Imlib2"),
+        ("university of illinois/ncsa open source license", "NCSA"),
+        ("(version 2.0, sept. 18, 2008)", "SGI-B-2.0"),
+        ("xfree86 license (version 1.1)", "XFree86-1.1"),
+        ("the x.net, inc. license", "Xnet"),
+        ("the above copyright notice and this permission notice shall be included in all copies of the software and its documentation and acknowledgment shall be given in the documentation and software packages that this software was used.", "MIT-feh"),
+        (
+            "the above copyright notice and this permission notice shall be", (
+                ("its documentation and marketing & publicity materials", "MIT-advertising"),
+                ("this agreement shall be governed in all respects by the laws of the state of california and by the laws of the united states of america.", "Xnet"),
+                ("distributions of all or part of the software intended to be used by the recipients", "MITNFA"),
+                ("in addition publicly documented acknowledgment must", (
+                    ("making the source available publicly means including the source for this software with the distribution", "Imlib2"),
+                    ("", "MIT-enna"))),
+                ("the software shall be used for good, not evil.", "JSON"),
+                ("without warranty of any kind", "MIT"))),
+        ("the above copyright notice and this permission notice shall be included in all copies of the software", "MIT-advertising"))),
+    ("the tmate open source license.", "TMate"),
+    ("the sleepycat license copyright", "Sleepycat"),
+    ("nrl license", "NRL"),
+    ("the php license,", (
+        ("version 3.01", "PHP-3.01"),
+        ("version 3.0", "PHP-3.0"))),
+    ("sendmail license", "Sendmail"),
+    ("bsd-4-clause (university of california-specific)", "BSD-4-Clause-UC"),
+    ("permission to use, copy, modify", (
+        ("and/or distribute this software for any purpose with or without fee is hereby granted.", "0BSD"),
+        ("the educational community license", "ECL-1.0"),
+        ("historical permission notice and disclaimer", "HPND"),
+        ("and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.", "ISC"),
+        ("derivative work - 1996, 1998-2000 copyright 1996, 1998-2000 the regents of the university of california", "MIT-CMU"),
+        ("multics license", "Multics"),
+        ("ntp license (ntp)", "NTP"),
+        ("the open source pil software license:", "PIL"),
+        ("postgresql database management system", "PostgreSQL"),
+        ("python software foundation license version 2", "Python-2.0"),
+        ("realnetworks public source license version 1.0", "RPSL-1.0"),
+        ("standard ml of new jersey copyright notice, license and disclaimer.", "SMLNJ"),
+        ("the authors hereby grant permission to use", (
+            ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
+            ("the authors and distributors specifically disclaim any warranties", "TCL"))),
+        ("w3c(r) software notice and license", "W3C-19980720"),
+        ("and distribute this software for any purpose", "curl"),
+        ("distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that", "libtiff"),
+    )),
+    ("intel open source license", "Intel"),
+    ("openssl license", "OpenSSL"),
+    (BSD_PREAMBLE, (
+        (BSD_CLAUSE_1, (
+            (BSD_CLAUSE_2, (
+                (BSD_CLAUSE_4, (
+                    (BSD_CLAUSE_3, "BSD-4-Clause"),
+                    ("no express or implied licenses to any party's patent rights are granted by this license.", "BSD-3-Clause-Clear"),
+                    ("must not be used to endorse or promote products derived from this software without prior written permission.", (
+                        ("products derived from this software may not be called", (
+                            ("redistributions of any form whatsoever must retain the following acknowledgment", "Apache-1.0"),
+                            ("the end-user documentation included with the redistribution, if any, must include the following acknowledgment", "Apache-1.1"),
+                            ("", "VSL-1.0"))),)),
+                    ("may publish revised and/or new versions of the license from time to time.", "Zend-2.0"),
+                    ("you are under no obligation whatsoever to provide any bug fixes", "BSD-3-Clause-LBNL"),
+                    ("you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear-License-2014"),
+                    ("redistributions of any form whatsoever must retain the following acknowledgment: 'this product includes software developed by the", "BSD-3-Clause-Attribution"),
+                    ("", "BSD-3-Clause")
+                )),
+                ("any additions, deletions, or changes to the original files must be clearly indicated", "Mup"),
+                ("redistributions in any form must be accompanied by information on how to obtain complete", "TOSL"),
+                ("this software is provided by", (
+                    ("this code is derived from software contributed to the netbsd foundation", "BSD-2-Clause-NetBSD"),
+                    ("the views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the freebsd project.", "BSD-2-Clause-FreeBSD"),
+                    ("", "BSD-2-Clause"),)),
+                ("all advertising materials mentioning features or use of this software must display the following acknowledgement:", "BSD-4-Clause"))),
+            ("the origin of this software must not be misrepresented; you must not claim that you wrote the original software. if you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.", (
+                ("version 1.0.5 of 10 december 2007", "bzip2-1.0.5"),
+                ("", "bzip2-1.0.6"),)))),
+        ("software license for mtl", "MTLL"),
+        ("redistributions in source code must retain the above copyright notice", (
+            ("zope public license (zpl) version 2.0", "ZPL-2.0"),
+            ("all advertising materials and documentation mentioning features derived from or use of this software must display the following acknowledgement", "ZPL-1.1"),
+            ("", "Naumen"))),
+        ("redistribution of source code must retain the above copyright", (
+            ("you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear"),
+            ("you acknowledge that this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear"))))),
     ("the openldap public license", (
         ("version 2.7, 7 september 2001", "OLDAP-2.7"),
         ("version 2.2, 1 march 2000", "OLDAP-2.2"),
@@ -40,7 +125,6 @@ LICENSE_TREE = (
         ("version 1.1", "CDDL-1.1"))),
     ("the national science and technology research center for computation and visualization of geometric structures (the geometry center) university of minnesota", "Qhull"),
     ("portions of this material resulted from work developed under a u.s. government contract", "mpich2"),
-    ("sendmail license", "Sendmail"),
     ("odc open database license (odbl)", "ODbL-1.0"),
     ("nokia open source license (nokos license)", "Nokia"),
     ("open public license", (
@@ -81,26 +165,6 @@ LICENSE_TREE = (
         ("font exception", "deprecated_GPL-2.0-with-font-exception"),
         ("gcc linking exception", "deprecated_GPL-2.0-with-GCC-exception"))),
     ("this copy of the libpng notices is provided for your convenience.", "Libpng"),
-    (MIT_PREAMBLE, (
-        ("x11 license", "X11"),
-        ("icu license - icu 1.8.1 and later", "ICU"),
-        ("imlib2 license", "Imlib2"),
-        ("university of illinois/ncsa open source license", "NCSA"),
-        ("(version 2.0, sept. 18, 2008)", "SGI-B-2.0"),
-        ("xfree86 license (version 1.1)", "XFree86-1.1"),
-        ("the x.net, inc. license", "Xnet"),
-        ("the above copyright notice and this permission notice shall be included in all copies of the software and its documentation and acknowledgment shall be given in the documentation and software packages that this software was used.", "MIT-feh"),
-        (
-            "the above copyright notice and this permission notice shall be", (
-                ("its documentation and marketing & publicity materials", "MIT-advertising"),
-                ("this agreement shall be governed in all respects by the laws of the state of california and by the laws of the united states of america.", "Xnet"),
-                ("distributions of all or part of the software intended to be used by the recipients", "MITNFA"),
-                ("in addition publicly documented acknowledgment must", (
-                    ("making the source available publicly means including the source for this software with the distribution", "Imlib2"),
-                    ("", "MIT-enna"))),
-                ("the software shall be used for good, not evil.", "JSON"),
-                ("without warranty of any kind", "MIT"))),
-        ("the above copyright notice and this permission notice shall be included in all copies of the software", "MIT-advertising"))),
     ("acpi - software license agreement", "Intel-ACPI"),
     ("the academic free license", (
         ("v. 2.0", "AFL-2.0"),
@@ -108,7 +172,6 @@ LICENSE_TREE = (
     ("you may freely use, modify, and/or distribute each of the files in this package without limitation. the package consists of the following files:", "Borceux"),
     ("the artistic license 2.0", "Artistic-2.0"),
     ("a world-wide, royalty-free, non-exclusive right to distribute, copy, modify, create derivatives, and use, in source and binary forms, is hereby granted", "AMPAS"),
-    ("nrl license", "NRL"),
     ("permission to use, copy, and distribute this software", (
         ("gl2ps license version 2, november 2003", "GL2PS"),
         ("original license: this software is", "xinetd"),
@@ -132,26 +195,6 @@ LICENSE_TREE = (
         ("sun public license version 1.0", "SPL-1.0"),
         ("gsoap public license", "gSOAP-1.3b"),
     )),
-    ("permission to use, copy, modify", (
-        ("and/or distribute this software for any purpose with or without fee is hereby granted.", "0BSD"),
-        ("the educational community license", "ECL-1.0"),
-        ("historical permission notice and disclaimer", "HPND"),
-        ("and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.", "ISC"),
-        ("derivative work - 1996, 1998-2000 copyright 1996, 1998-2000 the regents of the university of california", "MIT-CMU"),
-        ("multics license", "Multics"),
-        ("ntp license (ntp)", "NTP"),
-        ("the open source pil software license:", "PIL"),
-        ("postgresql database management system", "PostgreSQL"),
-        ("python software foundation license version 2", "Python-2.0"),
-        ("realnetworks public source license version 1.0", "RPSL-1.0"),
-        ("standard ml of new jersey copyright notice, license and disclaimer.", "SMLNJ"),
-        ("the authors hereby grant permission to use", (
-            ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
-            ("the authors and distributors specifically disclaim any warranties", "TCL"))),
-        ("w3c(r) software notice and license", "W3C-19980720"),
-        ("and distribute this software for any purpose", "curl"),
-        ("distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that", "libtiff"),
-    )),
     ("mozilla public license", (
         ("version 2.0", "MPL-2.0"),
         ("version 1.0", "MPL-1.0"),
@@ -164,8 +207,6 @@ LICENSE_TREE = (
     ("european union public licence", (
         ("v.1.0", "EUPL-1.0"),
         ("v. 1.1", "EUPL-1.1"))),
-    ("openssl license", "OpenSSL"),
-    ("the tmate open source license.", "TMate"),
     ("this source code has been made available to you by ibm on an as-is basis.", "IBM-pibs"),
     ("cnri open source gpl-compatible license agreement", "CNRI-Python-GPL-Compatible"),
     ("scea shared source license 1.0", "SCEA"),
@@ -176,49 +217,8 @@ LICENSE_TREE = (
     ("cnri open source license agreement", "CNRI-Python"),
     ("ricoh source code public license", (
         ("version 1.0", "RSCPL"),)),
-    ("intel open source license", "Intel"),
     ("these patterns were developed for internal gmv use and are made public", "Bahyph"),
     ("development of this software was funded, in part, by cray research inc., uunet communications services inc., sun microsystems inc., and scriptics corporation, none of whom are responsible for the results. the author thanks all of them.", "Spencer-99"),
-    ("the php license,", (
-        ("version 3.01", "PHP-3.01"),
-        ("version 3.0", "PHP-3.0"))),
-    ("bsd-4-clause (university of california-specific)", "BSD-4-Clause-UC"),
-    ("the sleepycat license copyright", "Sleepycat"),
-    (BSD_PREAMBLE, (
-        (BSD_CLAUSE_1, (
-            (BSD_CLAUSE_2, (
-                (BSD_CLAUSE_4, (
-                    (BSD_CLAUSE_3, "BSD-4-Clause"),
-                    ("no express or implied licenses to any party's patent rights are granted by this license.", "BSD-3-Clause-Clear"),
-                    ("must not be used to endorse or promote products derived from this software without prior written permission.", (
-                        ("products derived from this software may not be called", (
-                            ("redistributions of any form whatsoever must retain the following acknowledgment", "Apache-1.0"),
-                            ("the end-user documentation included with the redistribution, if any, must include the following acknowledgment", "Apache-1.1"),
-                            ("", "VSL-1.0"))),)),
-                    ("may publish revised and/or new versions of the license from time to time.", "Zend-2.0"),
-                    ("you are under no obligation whatsoever to provide any bug fixes", "BSD-3-Clause-LBNL"),
-                    ("you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear-License-2014"),
-                    ("redistributions of any form whatsoever must retain the following acknowledgment: 'this product includes software developed by the", "BSD-3-Clause-Attribution"),
-                    ("", "BSD-3-Clause")
-                )),
-                ("any additions, deletions, or changes to the original files must be clearly indicated", "Mup"),
-                ("redistributions in any form must be accompanied by information on how to obtain complete", "TOSL"),
-                ("this software is provided by", (
-                    ("this code is derived from software contributed to the netbsd foundation", "BSD-2-Clause-NetBSD"),
-                    ("the views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the freebsd project.", "BSD-2-Clause-FreeBSD"),
-                    ("", "BSD-2-Clause"),)),
-                ("all advertising materials mentioning features or use of this software must display the following acknowledgement:", "BSD-4-Clause"))),
-            ("the origin of this software must not be misrepresented; you must not claim that you wrote the original software. if you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.", (
-                ("version 1.0.5 of 10 december 2007", "bzip2-1.0.5"),
-                ("", "bzip2-1.0.6"),)))),
-        ("software license for mtl", "MTLL"),
-        ("redistributions in source code must retain the above copyright notice", (
-            ("zope public license (zpl) version 2.0", "ZPL-2.0"),
-            ("all advertising materials and documentation mentioning features derived from or use of this software must display the following acknowledgement", "ZPL-1.1"),
-            ("", "Naumen"))),
-        ("redistribution of source code must retain the above copyright", (
-            ("you acknowledge that this software is not designed, licensed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear"),
-            ("you acknowledge that this software is not designed or intended for use in the design, construction, operation or maintenance of any nuclear facility.", "BSD-3-Clause-No-Nuclear"))))),
     ("insert gpl v2 license text here", (
         ("class path exception", "deprecated_GPL-2.0-with-classpath-exception"),
         ("autoconf exception", "deprecated_GPL-2.0-with-autoconf-exception"))),
