@@ -42,7 +42,6 @@ LICENSE_TREE = (
     ("portions of this material resulted from work developed under a u.s. government contract", "mpich2"),
     ("sendmail license", "Sendmail"),
     ("odc open database license (odbl)", "ODbL-1.0"),
-    ("the universal permissive license (upl), version 1.0", "UPL-1.0"),
     ("nokia open source license (nokos license)", "Nokia"),
     ("open public license", (
         ("version 1.0", "OPL-1.0"),)),
@@ -78,9 +77,6 @@ LICENSE_TREE = (
     ("insert gpl v2 text here", (
         ("font exception", "deprecated_GPL-2.0-with-font-exception"),
         ("gcc linking exception", "deprecated_GPL-2.0-with-GCC-exception"))),
-    ("unicode, inc. license agreement - data files and software", (
-        ("http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.", "Unicode-DFS-2016"),
-        ("unicode data files do not include pdf online code charts under the directory", "Unicode-DFS-2015"))),
     ("this copy of the libpng notices is provided for your convenience.", "Libpng"),
     (MIT_PREAMBLE, (
         ("x11 license", "X11"),
@@ -159,13 +155,10 @@ LICENSE_TREE = (
         ("version 1.1", "MPL-1.1"))),
     ("no limit public license", "NLPL"),
     ("this file was added by clea f. rees on 2008/11/30 with the permission of dean guenther and pointers to this file were added to all source files.", "Wsuipa"),
-    ("info-zip license", "Info-ZIP"),
     ("permission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:", (
         ("the author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it.", "Spencer-86"),
         ("this software is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose.", "Newsletr"))),
     ("zimbra public license, version 1.4 (zpl)", "Zimbra-1.4"),
-    ("boost software license - version 1.0 - august 17th, 2003", "BSL-1.0"),
-    ("allegro 4 (the giftware license)", "Giftware"),
     ("european union public licence", (
         ("v.1.0", "EUPL-1.0"),
         ("v. 1.1", "EUPL-1.1"))),
@@ -228,7 +221,6 @@ LICENSE_TREE = (
         ("class path exception", "deprecated_GPL-2.0-with-classpath-exception"),
         ("autoconf exception", "deprecated_GPL-2.0-with-autoconf-exception"))),
     ("sax is free!", "SAX-PD"),
-    ("this is free and unencumbered software released into the public domain.", "Unlicense"),
     ("deutsche freie software lizenz", "D-FSL-1.0"),
     ("the freetype project license", "FTL"),
     ("this material was originally written and compiled by wietse venema at eindhoven university of technology, the netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.", "TCP-wrappers"),
@@ -327,7 +319,6 @@ LICENSE_TREE = (
     ("the sfl license agreement", "iMatix"),
     ("licensed under the apache license, version 2.0", "Apache-2.0"),
     ("secure messaging protocol (smp) libraries", "SMPPL"),
-    ("licence version 2", "Eurosym"),
     ("lesser general public license for linguistic resources", "LGPLLR"),
     ("a modified version of this file may be distributed, but it should be distributed with a *different* name. changed files must be distributed *together with a complete and unchanged* distribution of these files.", "dvipdfm"),
     ("license to copy and use this software is granted provided that it is identified as the \"rsa data security, inc.", "RSA-MD"),
@@ -350,13 +341,9 @@ LICENSE_TREE = (
     ("sun industry standards source license - version 1.1", "SISSL"),
     ("portions of this software were developed by the unidata program at the university corporation for atmospheric research.", "NetCDF"),
     ("this file may be freely copied and redistributed as long as:", "Afmparse"),
-    ("sil open font license", (
-        ("version 1.1 - 26 february 2007", "OFL-1.1"),
-        ("version 1.0 - 22 november 2005", "OFL-1.0"))),
     ("this software is provided 'as-is', without any express or implied warranty. in no event will the authors be held liable for any damages arising from the use of this software.", (
         ("source versions may not be \"relicensed\" under a different license", "Cube"),
         ("permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:", "zlib-like"),)),
-    ("jasper license version 2.0", "JasPer-2.0"),
     ("eiffel forum license,", (
         ("version 2", "EFL-2.0"),
         ("version 1", "EFL-1.0"))),
@@ -416,6 +403,21 @@ LICENSE_TREE = (
             ("in particular, you must make the source code of your modifications available to others free of charge and without a royalty.", "BitTorrent-1.1"),
             ("in particular, you must make the source code of your modifications available to others.", "BitTorrent-1.0"))),
         ("motosoto open source license - version 0.9.1", "Motosoto"),
+    )),
+    ("without warranty of any kind, express or implied", (
+        ("boost software license - version 1.0 - august 17th, 2003", "BSL-1.0"),
+        ("licence version 2", "Eurosym"),
+        ("however, if you like this product", "Giftware"),
+        ("info-zip license", "Info-ZIP"),
+        ("jasper license version 2.0", "JasPer-2.0"),
+        ("sil open font license", (
+            ("version 1.1 - 26 february 2007", "OFL-1.1"),
+            ("version 1.0 - 22 november 2005", "OFL-1.0"))),
+        ("the universal permissive license (upl), version 1.0", "UPL-1.0"),
+        ("unicode, inc. license agreement - data files and software", (
+            ("http://source.icu-project.org/repos/icu/, and http://www.unicode.org/utility/trac/browser/.", "Unicode-DFS-2016"),
+            ("unicode data files do not include pdf online code charts under the directory", "Unicode-DFS-2015"))),
+        ("this is free and unencumbered software released into the public domain.", "Unlicense"),
     )),
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
