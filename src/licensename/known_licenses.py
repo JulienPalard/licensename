@@ -155,7 +155,6 @@ LICENSE_TREE = (
         ("version 1.0", "MPL-1.0"),
         ("version 1.1", "MPL-1.1"))),
     ("no limit public license", "NLPL"),
-    ("and other parties. the following terms apply to all files associated with the software unless explicitly disclaimed in individual files.", "TCL"),
     ("this file was added by clea f. rees on 2008/11/30 with the permission of dean guenther and pointers to this file were added to all source files.", "Wsuipa"),
     ("info-zip license", "Info-ZIP"),
     ("permission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:", (
@@ -409,5 +408,7 @@ LICENSE_TREE = (
     ("the clarified artistic license", "ClArtistic"),
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
     ("redistribution and use in any form of this material and any product thereof including software in source or binary forms, along with any related documentation, with or without modification (\"this material\"), is permitted provided that the following conditions are met:", "AMDPLPA"),
-    ("the authors hereby grant permission to use, copy, modify, distribute, and license this software and its documentation for any purpose", "SWL"),
+    ("the authors hereby grant permission to use", (
+        ("by installing this software, you acknowledge that you have read this agreement", "SWL"),
+        ("the authors and distributors specifically disclaim any warranties", "TCL"))),
 )
