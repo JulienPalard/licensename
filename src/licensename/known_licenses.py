@@ -73,7 +73,6 @@ LICENSE_TREE = (
     ("miros license", "MirOS"),
     ("educational community license", (
         ("version 2.0, april 2007", "ECL-2.0"),)),
-    ("apple public source license ver. 1.2", "APSL-1.2"),
     ("insert gpl v2 text here", (
         ("font exception", "deprecated_GPL-2.0-with-font-exception"),
         ("gcc linking exception", "deprecated_GPL-2.0-with-GCC-exception"))),
@@ -276,15 +275,10 @@ LICENSE_TREE = (
     ("egenix.com public license agreement", (
         ("version 1.1.0", "eGenix"),)),
     ("use and copying of this software and preparation of derivative works based upon this", "Xerox"),
-    ("apple public source license", (
-        ("version 1.1 - april 19,1999", "APSL-1.1"),
-        ("version 1.0 - march 16, 1999", "APSL-1.0"),
-        ("version 2.0 - august 6, 2003", "APSL-2.0"))),
     ("unicode terms of use", "Unicode-TOU"),
     ("simple public license (simpl)", "SimPL-2.0"),
     ("non-profit open software license 3.0", "NPOSL-3.0"),
     ("this configure script is free software; the free software foundation gives unlimited permission to copy, distribute and modify it.", "FSFUL"),
-    ("reciprocal public license, version 1.1", "RPL-1.1"),
     ("noweb is copyright 1989-2000 by norman ramsey. all rights reserved.", "Noweb"),
     ("adobe systems incorporated(r) source code license agreement", "Adobe-2006"),
     ("the source code in this package is copyright 1999-2010 by andrew plotkin.", "Glulxe"),
@@ -323,7 +317,6 @@ LICENSE_TREE = (
     ("lesser general public license for linguistic resources", "LGPLLR"),
     ("a modified version of this file may be distributed, but it should be distributed with a *different* name. changed files must be distributed *together with a complete and unchanged* distribution of these files.", "dvipdfm"),
     ("license to copy and use this software is granted provided that it is identified as the \"rsa data security, inc.", "RSA-MD"),
-    ("sybase open watcom public license version 1.0", "Watcom-1.0"),
     ("yahoo! public license, version 1.0 (ypl)", "YPL-1.0"),
     ("the latex project public license", (
         ("lppl version 1.0 1999-03-01", "LPPL-1.0"),
@@ -419,6 +412,16 @@ LICENSE_TREE = (
             ("unicode data files do not include pdf online code charts under the directory", "Unicode-DFS-2015"))),
         ("this is free and unencumbered software released into the public domain.", "Unlicense"),
     )),
+    ("you hereby grant to", (
+        ("except as necessary to recognize third-party rights or third-party restriction", "OCLC-2.0"),
+        ("apple public source license ver. 1.2", "APSL-1.2"),
+        ("apple public source license", (
+            ("version 1.1 - april 19,1999", "APSL-1.1"),
+            ("version 1.0 - march 16, 1999", "APSL-1.0"),
+            ("version 2.0 - august 6, 2003", "APSL-2.0"))),
+        ("reciprocal public license, version 1.1", "RPL-1.1"),
+        ("sybase open watcom public license version 1.0", "Watcom-1.0"),
+    )),
     # Snowflakes:
     ("norwegian licence for open government data (nlod)", "NLOD-1.0"),
     ("redistribution and use in any form of this material and any product thereof", "AMDPLPA"),
@@ -429,7 +432,6 @@ LICENSE_TREE = (
             ("(version 8, november 18, 1999)", "Aladdin"),)),
     )),
     ("this program is distributed with no warranty of any sort.", "MakeIndex"),
-    ("except as necessary to recognize third-party rights or third-party restriction", "OCLC-2.0"),
     ("it is not allowed to remove this license", "Vim"),
     ("important: this apple software is supplied to you by apple computer, inc. (\"apple\")", "AML"),
 )
