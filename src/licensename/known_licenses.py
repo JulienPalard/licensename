@@ -370,7 +370,6 @@ LICENSE_TREE = (
     ("cwpuzzle.dtx is distributed in the hope that it will be useful, but without any warranty. no author or distributor accepts responsibility to anyone for the consequences of using it or for whether it serves any particular purpose or works at all, unless he says so in writing.", "Crossword"),
     ("this license agreement is between the corporation for national research initiatives, having an office at 1895 preston white drive, reston, va 20191 (\"cnri\"), and the individual or organization (\"licensee\") accessing and using jpython version 1.1.x in source or binary form and its associated documentation as provided herein (\"software\").", "CNRI-Jython"),
     ("permission to use, copy, modify, and distribute this software for any purpose", "curl"),
-    ("makeindex distribution notice", "MakeIndex"),
     ("bsd protection license", (
         ("february 2002", "BSD-Protection"),)),
     ("the open software license", (
@@ -421,4 +420,5 @@ LICENSE_TREE = (
         ("aladdin free public license", (
             ("(version 8, november 18, 1999)", "Aladdin"),)),
     )),
+    ("this program is distributed with no warranty of any sort.", "MakeIndex"),
 )
