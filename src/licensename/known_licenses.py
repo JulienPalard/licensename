@@ -369,14 +369,14 @@ LICENSE_TREE = (
         ("the open group test suite license", "OGTSL"),
         ("you may make and give away verbatim copies of the source form of the software without restriction, provided that you duplicate all of the original copyright notices and associated disclaimers.", "Ruby"),
     )),
+    ("gnu library general public license", (
+        ("version 2.1, february 1999", "LGPL-2.1"),
+        ("version 2, june 1991", "LGPL-2.0"))),
+    ("gnu general public license", (
+        ("version 3, 29 june 2007", "GPL-3.0"),
+        ("version 1, february 1989", "GPL-1.0"),
+        ("version 2, june 1991", "GPL-2.0"))),
     ("in the hope that it will be useful", (
-        ("gnu library general public license", (
-            ("version 2.1, february 1999", "LGPL-2.1"),
-            ("version 2, june 1991", "LGPL-2.0"))),
-        ("gnu general public license", (
-            ("version 3, 29 june 2007", "GPL-3.0"),
-            ("version 1, february 1989", "GPL-1.0"),
-            ("version 2, june 1991", "GPL-2.0"))),
         ("wxwindows library licence, version 3.1", "deprecated_WXwindows"),
         ("the ecos license version 2.0", "deprecated_eCos-2.0"),
     )),
