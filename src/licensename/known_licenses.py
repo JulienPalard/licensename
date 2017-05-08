@@ -66,9 +66,8 @@ KNOWN_FIRST_LINES = {
     },
     "contrat de licence de logiciel libre cecill-b": "CECILL-B",
     "contrat de licence de logiciel libre cecill-c": "CECILL-C",
-    "copyright and permission notice": "curl",
-    "copyright notice": "Bahyph",
-    "copyright notification": "DSDP",
+    "these patterns were developed for internal gmv use and are made public": "Bahyph",
+    "this program discloses material protectable under copyright laws of the united states.": "DSDP",
     "cua office public license version 1.0": "CUA-OPL-1.0",
     "caldera international, inc. hereby grants a fee free license that includes the rights use, modify and distribute this named source code, including creating derived binary products created from the source code. the source code for which caldera international, inc. grants rights are limited to the following unix operating systems that operate on the 16-bit pdp-11 cpu and early versions of the 32-bit unix operating system, with specific exclusion of unix system iii and unix system v and successor operating systems:": "Caldera",
     "code derived from the document": {
@@ -249,17 +248,18 @@ KNOWN_FIRST_LINES = {
     },
     "permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.": "Latex2e",
     "permission is hereby granted, free of charge, to any person obtaining a copy of this documentation file to use, copy, publish, distribute, sublicense, and/or sell copies of the documentation, and to permit others to do the same, provided that:": "Adobe-Glyph",
-    "permission is hereby granted, free of charge, to any person obtaining": {
+    "permission is hereby granted, free of charge, to any person": {
         "the above copyright notice and this permission notice shall be included in all copies of the software and its copyright notices. in addition publicly documented acknowledgment must be given that this software has been used if no source code of this software is made available publicly. this includes acknowledgments in either copyright notices, manuals, publicity and marketing documents or any documentation provided with any product containing this software. this license does not apply to any software that links to the libraries provided by this software (statically or dynamically), but only to the software provided.": "MIT-enna",
         "the above copyright notice and this permission notice shall be included in all copies of the software and its documentation and acknowledgment shall be given in the documentation and software packages that this software was used.": "MIT-feh",
         "the above copyright notice and this permission notice shall be included in all copies of the software, its documentation and marketing & publicity materials, and acknowledgment shall be given in the documentation, materials and software packages that this software was used.": "MIT-advertising",
-        "the above copyright notice and this permission notice shall be included": {
+        "the above copyright notice and this permission notice shall be": {
             "distributions of all or part of the software intended to be used by the recipients as they would use the unmodified software, containing modifications that substantially alter, remove, or disable functionality of the software, outside of the documented configuration mechanisms provided by the software, shall be modified such that the original author's bug reporting email addresses and urls are either replaced with the contact information of the parties responsible for the changes, or removed entirely.": "MITNFA",
             "the software is provided .as is., without warranty of any kind": "MIT",
             "the software is provided \"as is\", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.": "MIT"
         }
     },
     "permission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.": "gnuplot",
+    "permission to use, copy, modify, and distribute this software for any purpose": "curl",
     "permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.": "0BSD",
     "permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that (i) the above copyright notices and this permission notice appear in all copies of the software and related documentation, and (ii) the names of sam leffler and silicon graphics may not be used in any advertising or publicity relating to the software without the specific, prior written permission of sam leffler and silicon graphics.": "libtiff",
     "portions of this software were developed by the unidata program at the university corporation for atmospheric research.": "NetCDF",
