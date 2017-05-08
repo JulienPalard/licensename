@@ -216,6 +216,7 @@ LICENSE_TREE = (
             ("the origin of this software must not be misrepresented; you must not claim that you wrote the original software. if you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.", (
                 ("version 1.0.5 of 10 december 2007", "bzip2-1.0.5"),
                 ("", "bzip2-1.0.6"),)))),
+        ("software license for mtl", "MTLL"),
         ("redistributions in source code must retain the above copyright notice", (
             ("zope public license (zpl) version 2.0", "ZPL-2.0"),
             ("all advertising materials and documentation mentioning features derived from or use of this software must display the following acknowledgement", "ZPL-1.1"),
@@ -323,7 +324,6 @@ LICENSE_TREE = (
     ("this is a package of commutative diagram macros built on top of xy-pic", "Barr"),
     ("you can use doc software in commercial and/or binary software releases and are under no obligation to redistribute any", "DOC"),
     ("the q public license version 1.0", "QPL-1.0"),
-    ("software license for mtl", "MTLL"),
     ("the sfl license agreement", "iMatix"),
     ("licensed under the apache license, version 2.0", "Apache-2.0"),
     ("secure messaging protocol (smp) libraries", "SMPPL"),
