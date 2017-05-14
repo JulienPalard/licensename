@@ -20,11 +20,13 @@ import re
 from unidecode import unidecode
 from licensename import __version__
 from licensename.known_licenses import LICENSE_TREE
+import logging
 
 
 __author__ = "Julien Palard"
 __copyright__ = "Julien Palard"
 __license__ = "mit"
+logger = logging.getLogger(__name__)
 
 
 SPACES = r'(?:[ \t\f\v\u00A0\u2028])'
@@ -108,14 +110,28 @@ def parse_args(args):
         action='version',
         version='licensename {ver}'.format(ver=__version__))
     parser.add_argument(
-        '--pretty-print',
-        action='store_true',
-        help="Pretty print license file.")
+        '-v',
+        '--verbose',
+        dest="loglevel",
+        help="set loglevel to INFO",
+        action='store_const',
+        const=logging.INFO)
     parser.add_argument(
         dest="license_path",
         help="Path of a license file",
         metavar="LICENSE")
     return parser.parse_args(args)
+
+
+def setup_logging(loglevel):
+    """Setup basic logging
+
+    Args:
+      loglevel (int): minimum loglevel for emitting messages
+    """
+    logformat = "[%(asctime)s] %(levelname)s:%(name)s:%(message)s"
+    logging.basicConfig(level=loglevel, stream=sys.stdout,
+                        format=logformat, datefmt="%Y-%m-%d %H:%M:%S")
 
 
 def main(args):
@@ -125,10 +141,7 @@ def main(args):
       args ([str]): command line parameter list
     """
     args = parse_args(args)
-    if args.pretty_print:
-        with open(args.license_path) as license_file:
-            print(canonicalize(license_file.read()))
-            return
+    setup_logging(args)
     print(from_file(args.license_path))
 
 
