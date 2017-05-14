@@ -13,7 +13,6 @@ mit
 
 """
 
-import argparse
 import sys
 import re
 
@@ -101,6 +100,7 @@ def parse_args(args):
     Returns:
       :obj:`argparse.Namespace`: command line parameters namespace
     """
+    import argparse
     parser = argparse.ArgumentParser(
         description="Find name of a given license file.")
     parser.add_argument(
