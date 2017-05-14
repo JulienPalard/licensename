@@ -29,17 +29,6 @@ __license__ = "mit"
 logger = logging.getLogger(__name__)
 
 
-SPACES = r'(?:[ \t\f\v\u00A0\u2028])'
-UNORDERED_LIST = r'(?:[*\u2022+])'
-ORDERED_LIST = r'(?:[0-9]\.)'
-BULLET_MARKER = r'(?:{unordered}|{ordered})'.format(
-    ordered=ORDERED_LIST,
-    unordered=UNORDERED_LIST)
-BULLET_ITEM = r'(?:{spaces}*{bullet_marker}{spaces}+)'.format(
-    bullet_marker=BULLET_MARKER,
-    spaces=SPACES)
-
-
 def line_match_pattern(line, patterns):
     if isinstance(patterns, str):
         return patterns
