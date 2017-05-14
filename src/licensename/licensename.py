@@ -54,24 +54,10 @@ def canonicalize(license_text):
     return simplified_text
 
 
-def from_lines(license_lines):
-    """Parse a license text, returns a license name.
-    """
-    current_patterns = LICENSE_TREE
-    for line in license_lines:
-        if not line:
-            continue
-        remaining_patterns = line_match_pattern(line, current_patterns)
-        if remaining_patterns:
-            current_patterns = remaining_patterns
-            if isinstance(current_patterns, str):
-                return current_patterns
-
-
 def from_text(license_text):
     """Parse a license text, returns a license name.
     """
-    return from_lines(canonicalize(license_text).split('\n'))
+    return line_match_pattern(canonicalize(license_text), LICENSE_TREE)
 
 
 def from_file(license_path):
