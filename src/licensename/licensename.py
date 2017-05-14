@@ -13,14 +13,13 @@ mit
 
 """
 
-import sys
 import re
-
+import sys
+import logging
 
 from unidecode import unidecode
 from licensename import __version__
 from licensename.known_licenses import LICENSE_TREE
-import logging
 
 
 __author__ = "Julien Palard"
