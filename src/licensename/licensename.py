@@ -141,7 +141,7 @@ def main(args):
       args ([str]): command line parameter list
     """
     args = parse_args(args)
-    setup_logging(args)
+    setup_logging(args.loglevel)
     print(from_file(args.license_path))
 
 
