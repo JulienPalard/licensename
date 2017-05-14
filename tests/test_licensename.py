@@ -21,7 +21,7 @@ FIXTURE_DIR = os.path.join(
     "license_file,license_name",
     [(license_file,
       os.path.basename(
-          re.sub(r'(~[0-9]+)?\.txt', '', license_file))) for
+          re.sub(r'(~[0-9a-zA-Z]+)?\.txt', '', license_file))) for
      license_file in
      glob.glob(os.path.join(FIXTURE_DIR, '*.txt'))])
 def test_files(license_file, license_name):

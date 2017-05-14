@@ -198,6 +198,8 @@ LICENSE_TREE = (
     ("mozilla public license", (
         ("version 2.0", "MPL-2.0"),
         ("version 1.0", "MPL-1.0"),
+        ("wwwmozillaorg", (
+            ("version 10", "MPL-1.0"),)),
         ("version 1.1", "MPL-1.1"))),
     ("no limit public license", "NLPL"),
     ("this file was added by clea f. rees on 2008/11/30 with the permission of dean guenther and pointers to this file were added to all source files.", "Wsuipa"),
@@ -334,8 +336,11 @@ LICENSE_TREE = (
     ("portions of this software were developed by the unidata program at the university corporation for atmospheric research.", "NetCDF"),
     ("this file may be freely copied and redistributed as long as:", "Afmparse"),
     ("this software is provided 'as-is', without any express or implied warranty. in no event will the authors be held liable for any damages arising from the use of this software.", (
-        ("source versions may not be \"relicensed\" under a different license", "Cube"),
-        ("permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:", "zlib-like"),)),
+        ("permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:", (
+            ("source versions may not be \"relicensed\" under a different license", "Cube"),
+            ("an acknowledgment in the product documentation would be appreciated but is not required.", "Zlib"),
+            ("an acknowledgment (see the following) in the product documentation is required.", "zlib-acknowledgement")
+        )),)),
     ("eiffel forum license,", (
         ("version 2", "EFL-2.0"),
         ("version 1", "EFL-1.0"))),
