@@ -33,6 +33,7 @@ def line_match_pattern(line, patterns):
         return patterns
     for pattern, subpatterns in patterns:
         if pattern in line:
+            logger.info("Matched: %s", repr(pattern))
             found = line_match_pattern(line, subpatterns)
             if found:
                 return found
